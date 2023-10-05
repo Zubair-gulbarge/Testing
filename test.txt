@@ -1,0 +1,24 @@
+Here are some resources that can help you create test cases for your React project:
+
+- **React Testing Library Tutorial** ⁴: This tutorial provides a comprehensive guide on how to write unit tests using the React Testing Library. It covers topics such as why you need to write unit tests, what the React Testing Library is, how to set up a React project with Vite, how to create the UI for testing, and how to write unit test cases.
+
+- **How to Write Test Cases for React Components With Jest and Enzyme** ⁵: This article provides a step-by-step guide on how to write test cases for React components using Jest and Enzyme.
+
+- **Unit Testing of React Apps using JEST : Tutorial** ⁷: This tutorial provides a detailed guide on how to perform unit testing of a React app using Jest.
+
+- **React Testing Tutorial - 5 - Project Setup** ²: This video tutorial explains how to set up a React project for testing with Jest and React Testing Library. It covers topics such as installing Node.js and Git, creating a React TypeScript project using Create React App with the TypeScript template, running the project on localhost port 3000, and understanding that Jest and React Testing Library are already installed and configured by Create React App.
+
+I hope these resources help you get started with creating test cases for your React project!
+
+Source: Conversation with Bing, 10/6/2023
+(1) React Testing Library Tutorial – How to Write Unit Tests for React Apps. https://www.freecodecamp.org/news/write-unit-tests-using-react-testing-library/.
+(2) How to Write Test Cases for React Components With Jest and Enzyme. https://betterprogramming.pub/write-test-cases-for-react-components-using-jest-and-enzyme-de3ac3d600c.
+(3) Unit Testing of React Apps using JEST : Tutorial | BrowserStack. https://www.browserstack.com/guide/unit-testing-of-react-apps-using-jest.
+(4) React Testing Tutorial - 5 - Project Setup. https://www.youtube.com/watch?v=9kPiq8-i-0M.
+(5) React Testing Tutorial - 8 - Your First Test. https://www.youtube.com/watch?v=R6Opu2K6xbk.
+(6) React Testing Tutorial - 9 - Test Driven Development. https://www.youtube.com/watch?v=foiMMI-pEes.
+(7) How to Write Test Cases for React Hooks From Scratch. https://betterprogramming.pub/write-test-cases-especially-for-react-hooks-from-scratch-eab164d8e2e8.
+(8) React Testing Tutorial - 4 - What is a Test?. https://www.youtube.com/watch?v=kAwvESdz2kQ.
+(9) How To Test a React App with Jest and React Testing Library. https://www.digitalocean.com/community/tutorials/how-to-test-a-react-app-with-jest-and-react-testing-library.
+(10) A Comprehensive List of React Test Cases - LambdaTest. https://www.lambdatest.com/learning-hub/react-test-case-template.
+(11) A beginner’s guide to testing React components using Jest ... - Medium. https://medium.com/jspoint/a-beginners-guide-to-testing-react-components-using-jest-and-github-actions-c1c13128f2c6.
