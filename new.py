@@ -1,5 +1,4 @@
-fruits = ["apple", "banana", "cherry", "date"]
-for fruit in fruits:
-    if fruit == "cherry":
-        break
-    print(fruit)
+count = 0
+while count < 5:
+    print(count)
+    count += 1
