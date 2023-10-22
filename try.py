@@ -1,8 +1,10 @@
-print(3-5)
-print(5+3)
-print(5*3)
-print(5/3)
-print(5**3)
-print(5//3)
-print(5%3)
+x = 3
+y = 25
+print(x - y)
+print(x+y)
+print(x*y)
+print(x/y)
+print(x**y)
+print(x//y)
+print(x%y)
 
