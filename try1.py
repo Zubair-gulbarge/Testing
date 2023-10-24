@@ -20,3 +20,29 @@
 # else:
 #     print("You are obese.")
 
+# Start
+# Initialize an empty string variable for the alphabet list.
+alphabet_list = "abcdefghijklmnopqrstuvwxyz"
+
+# Initialize a dictionary to store letter frequencies.
+letter_frequencies = {}
+
+# Loop through each letter in the alphabet list:
+for letter in alphabet_list:
+    # Create a variable to store the frequency and set it to zero.
+    frequency = 0
+
+    # Loop through each letter in the given string:
+    given_string = "Your input string goes here"
+    for char in given_string:
+        # If the letter in the string is the same as the current letter in the alphabet list:
+        if char == letter:
+            # Increase the frequency variable by one.
+            frequency += 1
+
+    # If the frequency variable is not zero:
+    if frequency != 0:
+        # Print the current letter in the alphabet list followed by a colon and the value of the frequency variable.
+        print(f"{letter}: {frequency}")
+
+# End
