@@ -50,3 +50,21 @@
 #     print("These strings are anagrams of each other.")
 # else:
 #     print("These strings are not anagrams.")
+
+def remove_duplicates(input_list):
+    seen = set()
+    unique_list = []
+
+    for item in input_list:
+        if item not in seen:
+            seen.add(item)
+            unique_list.append(item)
+
+    return unique_list
+
+# Test the function
+input_list = [1, 2, 2, 3, 4, 4, 5, 6, 6]
+
+unique_items = remove_duplicates(input_list)
+print("Original List:", input_list)
+print("List with Duplicates Removed:", unique_items)
