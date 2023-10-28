@@ -20,17 +20,17 @@
 # else:
 #     print("You are obese.")
 
-def is_palindrome(string):
-    # Remove spaces and convert to lowercase for case-insensitive comparison
-    cleaned_string = string.replace(" ", "").lower()
-    # Compare the original string with its reverse
-    return cleaned_string == cleaned_string[::-1]
+# def is_palindrome(string):
+#     # Remove spaces and convert to lowercase for case-insensitive comparison
+#     cleaned_string = string.replace(" ", "").lower()
+#     # Compare the original string with its reverse
+#     return cleaned_string == cleaned_string[::-1]
 
-# Test the function
-input_string = input("Enter a string: ")
+# # Test the function
+# input_string = input("Enter a string: ")
 
-if is_palindrome(input_string):
-    print("It's a palindrome.")
-else:
-    print("It's not a palindrome.")
+# if is_palindrome(input_string):
+#     print("It's a palindrome.")
+# else:
+#     print("It's not a palindrome.")
 
