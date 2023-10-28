@@ -34,3 +34,19 @@
 # else:
 #     print("It's not a palindrome.")
 
+def are_anagrams(str1, str2):
+    # Remove spaces and convert to lowercase for case-insensitive comparison
+    cleaned_str1 = str1.replace(" ", "").lower()
+    cleaned_str2 = str2.replace(" ", "").lower()
+
+    # Check if the sorted characters of the cleaned strings are the same
+    return sorted(cleaned_str1) == sorted(cleaned_str2)
+
+# Test the function
+string1 = input("Enter the first string: ")
+string2 = input("Enter the second string: ")
+
+if are_anagrams(string1, string2):
+    print("These strings are anagrams of each other.")
+else:
+    print("These strings are not anagrams.")
