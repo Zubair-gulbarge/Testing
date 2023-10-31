@@ -49,3 +49,12 @@
 #     a, b = b, a + b
 
 # print(f"The first {n} terms of the Fibonacci sequence are: {fib_sequence}")
+
+# Get a string from the user
+input_string = input("Enter a string: ")
+
+# Reverse the string
+reversed_string = input_string[::-1]
+
+# Print the reversed string
+print(f"The reversed string is: {reversed_string}")
