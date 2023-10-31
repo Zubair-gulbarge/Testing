@@ -38,3 +38,14 @@
 # # Print the sum of digits
 # print(f"The sum of digits is: {digit_sum}")
 
+# Generate the first n terms of the Fibonacci sequence
+# n = int(input("Enter the number of terms: "))
+
+# a, b = 0, 1
+# fib_sequence = []
+
+# for _ in range(n):
+#     fib_sequence.append(a)
+#     a, b = b, a + b
+
+# print(f"The first {n} terms of the Fibonacci sequence are: {fib_sequence}")
