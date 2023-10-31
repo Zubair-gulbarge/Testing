@@ -60,17 +60,17 @@
 # print(f"The reversed string is: {reversed_string}")
 
 # Check if a number is prime
-num = int(input("Enter a positive integer: "))
+# num = int(input("Enter a positive integer: "))
 
-def is_prime(number):
-    if number <= 1:
-        return False
-    for i in range(2, int(number**0.5) + 1):
-        if number % i == 0:
-            return False
-    return True
+# def is_prime(number):
+#     if number <= 1:
+#         return False
+#     for i in range(2, int(number**0.5) + 1):
+#         if number % i == 0:
+#             return False
+#     return True
 
-if is_prime(num):
-    print(f"{num} is a prime number.")
-else:
-    print(f"{num} is not a prime number.")
+# if is_prime(num):
+#     print(f"{num} is a prime number.")
+# else:
+#     print(f"{num} is not a prime number.")
