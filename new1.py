@@ -9,19 +9,20 @@
 # # Print the result
 # print(f"The area of the circle with radius {radius} is {area:.2f}")
 
-# Get a string from the user
-text = input("Enter a string: ")
+# # Get a string from the user
+# text = input("Enter a string: ")
 
-# Count vowels and consonants
-vowels = 0
-consonants = 0
+# # Count vowels and consonants
+# vowels = 0
+# consonants = 0
 
-for char in text:
-    if char.isalpha():
-        if char.lower() in "aeiou":
-            vowels += 1
-        else:
-            consonants += 1
+# for char in text:
+#     if char.isalpha():
+#         if char.lower() in "aeiou":
+#             vowels += 1
+#         else:
+#             consonants += 1
 
-# Print the counts
-print(f"Vowels: {vowels}, Consonants: {consonants}")
+# # Print the counts
+# print(f"Vowels: {vowels}, Consonants: {consonants}")
+
