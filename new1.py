@@ -27,13 +27,14 @@
 # print(f"Vowels: {vowels}, Consonants: {consonants}")
 
 # Get a positive integer from the user
-number = int(input("Enter a positive integer: "))
+# number = int(input("Enter a positive integer: "))
 
-# Calculate the sum of its digits
-digit_sum = 0
-while number > 0:
-    digit_sum += number % 10
-    number //= 10
+# # Calculate the sum of its digits
+# digit_sum = 0
+# while number > 0:
+#     digit_sum += number % 10
+#     number //= 10
 
-# Print the sum of digits
-print(f"The sum of digits is: {digit_sum}")
+# # Print the sum of digits
+# print(f"The sum of digits is: {digit_sum}")
+
