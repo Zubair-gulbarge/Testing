@@ -8,3 +8,11 @@ for i in range(1, number + 1):
         factors.append(i)
 
 print(f"The factors of {number} are: {factors}")
+
+
+# Find the largest element in a list of numbers
+numbers = [12, 7, 15, 28, 21]
+
+largest = max(numbers)
+
+print(f"The largest element in the list is: {largest}")
