@@ -17,6 +17,8 @@
 # print(f"{base} raised to the power of {exponent} is {result}")
 
 
+
+
 # def is_armstrong(num):
 #     order = len(str(num))
 #     total = 0
@@ -35,3 +37,20 @@
 #     print(f"{number} is not an Armstrong number.")
 
 
+# Generate a list of prime numbers up to a specified limit
+limit = int(input("Enter a limit: "))
+
+def generate_primes(limit):
+    primes = []
+    for num in range(2, limit + 1):
+        is_prime = True
+        for i in range(2, int(num ** 0.5) + 1):
+            if num % i == 0:
+                is_prime = False
+                break
+        if is_prime:
+            primes.append(num)
+    return primes
+
+prime_list = generate_primes(limit)
+print(f"Prime numbers up to {limit} are: {prime_list}")
