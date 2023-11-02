@@ -6,21 +6,23 @@
 # print(f"The reversed list is: {reversed_list}")
 
 # Check if a number is an Armstrong number
-number = int(input("Enter a positive integer: "))
+# number = int(input("Enter a positive integer: "))
 
-def is_armstrong(num):
-    order = len(str(num))
-    total = 0
-    temp = num
+# def is_armstrong(num):
+#     order = len(str(num))
+#     total = 0
+#     temp = num
 
-    while temp > 0:
-        digit = temp % 10
-        total += digit ** order
-        temp //= 10
+#     while temp > 0:
+#         digit = temp % 10
+#         total += digit ** order
+#         temp //= 10
 
-    return num == total
+#     return num == total
 
-if is_armstrong(number):
-    print(f"{number} is an Armstrong number.")
-else:
-    print(f"{number} is not an Armstrong number.")
+# if is_armstrong(number):
+#     print(f"{number} is an Armstrong number.")
+# else:
+#     print(f"{number} is not an Armstrong number.")
+
+
