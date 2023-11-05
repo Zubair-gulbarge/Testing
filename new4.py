@@ -124,16 +124,16 @@
 
 
 # Using memoization to calculate factorial
-def factorial(n, memo={}):
-    if n in memo:
-        return memo[n]
-    if n == 0:
-        return 1
-    result = n * factorial(n - 1, memo)
-    memo[n] = result
-    return result
+# def factorial(n, memo={}):
+#     if n in memo:
+#         return memo[n]
+#     if n == 0:
+#         return 1
+#     result = n * factorial(n - 1, memo)
+#     memo[n] = result
+#     return result
 
-# Example usage:
-n = 5
-result = factorial(n)
-print(f"{n}! = {result}")
+# # Example usage:
+# n = 5
+# result = factorial(n)
+# print(f"{n}! = {result}")
