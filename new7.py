@@ -31,14 +31,14 @@ word_set = set(input("Enter a string: ").split())
 sorted_words = sorted(word_set)
 
 # Print the sorted unique words
-print("Sorted unique words:", ' '.join(sorted_words))
+# print("Sorted unique words:", ' '.join(sorted_words))
 
-from math import pi
+# from math import pi
 
-r = float(input())
-area = pi * r ** 2
+# r = float(input())
+# area = pi * r ** 2
 
-# Format the output to display with 10 decimal places
-formatted_area = "{:.10f}".format(area)
+# # Format the output to display with 10 decimal places
+# formatted_area = "{:.10f}".format(area)
 
-print(formatted_area)
+# print(formatted_area)
