@@ -25,10 +25,10 @@
 # print("Sum of elements:", result)
 
 # Take input as a string and split it into a set of words
-word_set = set(input("Enter a string: ").split())
+# word_set = set(input("Enter a string: ").split())
 
-# Sort the set and convert it back to a list
-sorted_words = sorted(word_set)
+# # Sort the set and convert it back to a list
+# sorted_words = sorted(word_set)
 
 # Print the sorted unique words
 # print("Sorted unique words:", ' '.join(sorted_words))
