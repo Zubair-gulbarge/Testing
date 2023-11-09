@@ -19,26 +19,26 @@
 # Output: [0, 1]
 # Explanation: nums[0] + nums[1] == 9, so the output is [0, 1].
 
-def two_sum(nums, target):
-    # Create a dictionary to store the complement of each number along with its index
-    complement_dict = {}
+# def two_sum(nums, target):
+#     # Create a dictionary to store the complement of each number along with its index
+#     complement_dict = {}
 
-    for i, num in enumerate(nums):
-        complement = target - num
+#     for i, num in enumerate(nums):
+#         complement = target - num
 
-        # Check if the complement is already in the dictionary
-        if complement in complement_dict:
-            # If found, return the indices of the two numbers
-            return [complement_dict[complement], i]
+#         # Check if the complement is already in the dictionary
+#         if complement in complement_dict:
+#             # If found, return the indices of the two numbers
+#             return [complement_dict[complement], i]
 
-        # If not found, add the current number and its index to the dictionary
-        complement_dict[num] = i
+#         # If not found, add the current number and its index to the dictionary
+#         complement_dict[num] = i
 
-    # If no solution is found
-    return None
+#     # If no solution is found
+#     return None
 
-# Example usage:
-nums = [2, 7, 11, 15]
-target = 9
-result = two_sum(nums, target)
-print(result)
+# # Example usage:
+# nums = [2, 7, 11, 15]
+# target = 9
+# result = two_sum(nums, target)
+# print(result)
