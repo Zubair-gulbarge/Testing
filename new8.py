@@ -14,3 +14,8 @@
 # Enter a string: String Slicing in Python
 # Enter the number of characters from the right: 5
 # The last 5 characters from the right: ython
+
+Input: nums = [2, 7, 11, 15], target = 9
+Output: [0, 1]
+Explanation: nums[0] + nums[1] == 9, so the output is [0, 1].
+
