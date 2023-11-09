@@ -10,3 +10,7 @@
 #     print(f"The last {n} characters from the right: {result}")
 # else:
 #     print("Invalid input for the number of characters.")
+
+Enter a string: String Slicing in Python
+Enter the number of characters from the right: 5
+The last 5 characters from the right: ython
