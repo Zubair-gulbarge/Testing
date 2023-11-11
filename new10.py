@@ -35,3 +35,10 @@
 # result = fibonacci(n)
 # print(f"The first {n} numbers in the Fibonacci series are: {result}")
 
+def reverse_string(s):
+    return s[::-1]
+
+# Example usage:
+input_str = "Python"
+result = reverse_string(input_str)
+print(f"The reversed string is: {result}")
