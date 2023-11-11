@@ -42,8 +42,8 @@
 # input_str = "Python"
 # result = reverse_string(input_str)
 # print(f"The reversed string is: {result}")
-numbers = [1, 2, 3, 4, 5]
-squared_numbers = [num**2 for num in numbers]
+# numbers = [1, 2, 3, 4, 5]
+# squared_numbers = [num**2 for num in numbers]
 
-print("Original List:", numbers)
-print("Squared List:", squared_numbers)
+# print("Original List:", numbers)
+# print("Squared List:", squared_numbers)
