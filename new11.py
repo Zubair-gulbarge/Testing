@@ -14,9 +14,9 @@
 # max_num = max(num1, num2, num3)
 # print(f"The maximum number is: {max_num}")
 
-year = int(input("Enter a year: "))
+# year = int(input("Enter a year: "))
 
-if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
-    print("Leap year")
-else:
-    print("Not a leap year")
+# if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+#     print("Leap year")
+# else:
+#     print("Not a leap year")
