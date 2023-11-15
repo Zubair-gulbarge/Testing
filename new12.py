@@ -7,19 +7,19 @@
 #         complement_dict[num] = i
 #     return None
 
-def reverse_integer(x):
-    INT_MAX, INT_MIN = 2**31 - 1, -2**31
-    result = 0
-    sign = 1 if x >= 0 else -1
-    x = abs(x)
+# def reverse_integer(x):
+#     INT_MAX, INT_MIN = 2**31 - 1, -2**31
+#     result = 0
+#     sign = 1 if x >= 0 else -1
+#     x = abs(x)
 
-    while x != 0:
-        pop = x % 10
-        x //= 10
+#     while x != 0:
+#         pop = x % 10
+#         x //= 10
 
-        if result > (INT_MAX - pop) // 10:
-            return 0
+#         if result > (INT_MAX - pop) // 10:
+#             return 0
 
-        result = result * 10 + pop
+#         result = result * 10 + pop
 
-    return sign * result
+#     return sign * result
