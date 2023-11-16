@@ -35,3 +35,28 @@
 # # Calling the overridden method
 # my_cat.make_sound()
 # my_dog.make_sound()
+
+class BankAccount:
+    def __init__(self, balance):
+        self._balance = balance  # Protected attribute
+
+    def deposit(self, amount):
+        if amount > 0:
+            self._balance += amount
+            print(f"Deposit successful. New balance: {self._balance}")
+        else:
+            print("Invalid deposit amount.")
+
+    def withdraw(self, amount):
+        if 0 < amount <= self._balance:
+            self._balance -= amount
+            print(f"Withdrawal successful. New balance: {self._balance}")
+        else:
+            print("Invalid withdrawal amount.")
+
+# Creating an object of the BankAccount class
+account = BankAccount(1000)
+
+# Performing transactions
+account.deposit(500)
+account.withdraw(200)
