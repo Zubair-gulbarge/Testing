@@ -13,25 +13,25 @@
 # print(f"{my_dog.name} is {my_dog.age} years old.")
 # my_dog.bark()
 
-class Animal:
-    def __init__(self, species):
-        self.species = species
+# class Animal:
+#     def __init__(self, species):
+#         self.species = species
 
-    def make_sound(self):
-        pass
+#     def make_sound(self):
+#         pass
 
-class Cat(Animal):
-    def make_sound(self):
-        print("Meow!")
+# class Cat(Animal):
+#     def make_sound(self):
+#         print("Meow!")
 
-class Dog(Animal):
-    def make_sound(self):
-        print("Woof!")
+# class Dog(Animal):
+#     def make_sound(self):
+#         print("Woof!")
 
-# Creating objects of the derived classes
-my_cat = Cat("Feline")
-my_dog = Dog("Canine")
+# # Creating objects of the derived classes
+# my_cat = Cat("Feline")
+# my_dog = Dog("Canine")
 
-# Calling the overridden method
-my_cat.make_sound()
-my_dog.make_sound()
+# # Calling the overridden method
+# my_cat.make_sound()
+# my_dog.make_sound()
