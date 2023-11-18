@@ -3,7 +3,7 @@ for i in range(1, 6):
     print(i)
 
 # Countdown from 5 to 1 using a while loop
-count = 5
-while count > 0:
-    print(count)
-    count -= 1
+# count = 5
+# while count > 0:
+#     print(count)
+#     count -= 1
