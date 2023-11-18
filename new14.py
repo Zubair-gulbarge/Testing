@@ -41,20 +41,20 @@
 # print(f"Sum: {sum_result}")
 # print(f"Product: {product_result}")
 
-class Engine:
-    def start(self):
-        print("Engine started")
+# class Engine:
+#     def start(self):
+#         print("Engine started")
 
-class Car:
-    def __init__(self):
-        self.engine = Engine()
+# class Car:
+#     def __init__(self):
+#         self.engine = Engine()
 
-    def drive(self):
-        print("Car is moving")
+#     def drive(self):
+#         print("Car is moving")
 
-# Creating an object of the Car class
-my_car = Car()
+# # Creating an object of the Car class
+# my_car = Car()
 
-# Using composition to access Engine methods
-my_car.engine.start()
-my_car.drive()
+# # Using composition to access Engine methods
+# my_car.engine.start()
+# my_car.drive()
