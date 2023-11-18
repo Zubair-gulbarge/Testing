@@ -25,18 +25,18 @@
 # print(f"Area of the rectangle: {rectangle.area()}")
 # print(f"Area of the circle: {circle.area()}")
 
-class MathOperations:
-    @classmethod
-    def add(cls, x, y):
-        return x + y
+# class MathOperations:
+#     @classmethod
+#     def add(cls, x, y):
+#         return x + y
 
-    @staticmethod
-    def multiply(x, y):
-        return x * y
+#     @staticmethod
+#     def multiply(x, y):
+#         return x * y
 
-# Using class methods and static methods
-sum_result = MathOperations.add(3, 7)
-product_result = MathOperations.multiply(4, 5)
+# # Using class methods and static methods
+# sum_result = MathOperations.add(3, 7)
+# product_result = MathOperations.multiply(4, 5)
 
-print(f"Sum: {sum_result}")
-print(f"Product: {product_result}")
+# print(f"Sum: {sum_result}")
+# print(f"Product: {product_result}")
