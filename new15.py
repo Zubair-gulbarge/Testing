@@ -21,6 +21,6 @@ while user_input <= 0:
 print("You entered:", user_input)
 
 # Iterating through a list using a for loop
-fruits = ["apple", "banana", "orange"]
-for fruit in fruits:
-    print(fruit)
+# fruits = ["apple", "banana", "orange"]
+# for fruit in fruits:
+#     print(fruit)
