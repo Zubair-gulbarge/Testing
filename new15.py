@@ -15,10 +15,10 @@
 # print("Sum:", sum_numbers)
 
 # Getting a positive integer from the user using a while loop for input validation
-user_input = -1
-while user_input <= 0:
-    user_input = int(input("Enter a positive integer: "))
-print("You entered:", user_input)
+# user_input = -1
+# while user_input <= 0:
+#     user_input = int(input("Enter a positive integer: "))
+# print("You entered:", user_input)
 
 # Iterating through a list using a for loop
 # fruits = ["apple", "banana", "orange"]
