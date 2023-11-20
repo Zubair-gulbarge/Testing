@@ -13,9 +13,9 @@
 #     print()
 
 # Simple password verification using a while loop
-password = "secret"
-user_input = input("Enter the password: ")
-while user_input != password:
-    print("Incorrect password. Try again.")
-    user_input = input("Enter the password: ")
-print("Access granted!")
+# password = "secret"
+# user_input = input("Enter the password: ")
+# while user_input != password:
+#     print("Incorrect password. Try again.")
+#     user_input = input("Enter the password: ")
+# print("Access granted!")
