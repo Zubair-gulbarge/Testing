@@ -12,3 +12,8 @@
 #         print("Too high. Try again.")
 
 # print("Congratulations! You guessed the correct number:", target_number)
+
+# Iterating over a dictionary using a for loop
+student_grades = {"Alice": 85, "Bob": 92, "Charlie": 78}
+for name, grade in student_grades.items():
+    print(f"{name}'s grade: {grade}")
