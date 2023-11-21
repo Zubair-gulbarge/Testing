@@ -17,3 +17,15 @@
 # student_grades = {"Alice": 85, "Bob": 92, "Charlie": 78}
 # for name, grade in student_grades.items():
 #     print(f"{name}'s grade: {grade}")
+
+# Generating Fibonacci series using a while loop
+a, b = 0, 1
+count = 10
+fibonacci_series = []
+
+while count > 0:
+    fibonacci_series.append(a)
+    a, b = b, a + b
+    count -= 1
+
+print("Fibonacci Series:", fibonacci_series)
