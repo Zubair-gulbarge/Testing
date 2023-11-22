@@ -3,12 +3,12 @@
 # print("Squares:", squares)
 
 # Calculating the sum of digits of a number using a while loop
-number = 12345
-sum_of_digits = 0
+# number = 12345
+# sum_of_digits = 0
 
-while number > 0:
-    digit = number % 10
-    sum_of_digits += digit
-    number //= 10
+# while number > 0:
+#     digit = number % 10
+#     sum_of_digits += digit
+#     number //= 10
 
-print("Sum of digits:", sum_of_digits)
+# print("Sum of digits:", sum_of_digits)
