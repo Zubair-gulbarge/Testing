@@ -12,3 +12,8 @@
 #     number //= 10
 
 # print("Sum of digits:", sum_of_digits)
+
+# Using enumerate to get both index and value in a for loop
+fruits = ["apple", "banana", "orange"]
+for index, fruit in enumerate(fruits):
+    print(f"Index: {index}, Fruit: {fruit}")
