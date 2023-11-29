@@ -19,3 +19,14 @@
 #     for j in range(i):
 #         print("*", end=" ")
 #     print()
+
+# Calculating the factorial of a number using a while loop
+n = 5
+factorial = 1
+current = 1
+
+while current <= n:
+    factorial *= current
+    current += 1
+
+print(f"The factorial of {n} is: {factorial}")
