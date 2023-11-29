@@ -38,3 +38,15 @@
 # # Close the connection
 # conn.commit()
 # conn.close()
+
+import requests
+
+api_key = "your_api_key"
+city = input("Enter a city: ")
+
+url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"
+response = requests.get(url)
+data = response.json()
+
+temperature = data["main"]["temp"]
+print(f"The current temperature in {city} is: {temperature}°C")
