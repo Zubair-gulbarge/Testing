@@ -28,28 +28,28 @@
 
 # asyncio.run(main())
 
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_squared_error
-import pandas as pd
+# from sklearn.model_selection import train_test_split
+# from sklearn.linear_model import LinearRegression
+# from sklearn.metrics import mean_squared_error
+# import pandas as pd
 
-# Load dataset
-df = pd.read_csv("example_dataset.csv")
+# # Load dataset
+# df = pd.read_csv("example_dataset.csv")
 
-# Prepare data
-X = df[["feature1", "feature2"]]
-y = df["target"]
+# # Prepare data
+# X = df[["feature1", "feature2"]]
+# y = df["target"]
 
-# Split data
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+# # Split data
+# X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# Train model
-model = LinearRegression()
-model.fit(X_train, y_train)
+# # Train model
+# model = LinearRegression()
+# model.fit(X_train, y_train)
 
-# Make predictions
-predictions = model.predict(X_test)
+# # Make predictions
+# predictions = model.predict(X_test)
 
-# Evaluate model
-mse = mean_squared_error(y_test, predictions)
-print(f"Mean Squared Error: {mse}")
+# # Evaluate model
+# mse = mean_squared_error(y_test, predictions)
+# print(f"Mean Squared Error: {mse}")
