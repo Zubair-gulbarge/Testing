@@ -11,3 +11,19 @@
 
 # # Data visualization
 # grouped_data.plot(kind="bar")
+
+import asyncio
+import aiohttp
+
+async def fetch(url):
+    async with aiohttp.ClientSession() as session:
+        async with session.get(url) as response:
+            return await response.text()
+
+async def main():
+    urls = ["https://example.com", "https://example.org", "https://example.net"]
+    tasks = [fetch(url) for url in urls]
+    responses = await asyncio.gather(*tasks)
+    print(responses)
+
+asyncio.run(main())
