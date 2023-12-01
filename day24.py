@@ -26,3 +26,14 @@
 
 # if __name__ == "__main__":
 #     app.run(debug=True)
+
+from PIL import Image, ImageFilter
+
+# Open an image
+original_image = Image.open("example_image.jpg")
+
+# Apply a filter (e.g., Gaussian blur)
+blurred_image = original_image.filter(ImageFilter.GaussianBlur(radius=5))
+
+# Save the modified image
+blurred_image.save("blurred_image.jpg")
