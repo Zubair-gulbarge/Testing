@@ -1,19 +1,19 @@
 
 11. **Problem: Web Scraping with BeautifulSoup and Requests**
     - Description: Use BeautifulSoup and the Requests library to scrape data from a website.
-    - Code:
-      ```python
-      import requests
-      from bs4 import BeautifulSoup
+    # - Code:
+    #   ```python
+    #   import requests
+    #   from bs4 import BeautifulSoup
 
-      url = "https://example.com"
-      response = requests.get(url)
+    #   url = "https://example.com"
+    #   response = requests.get(url)
 
-      if response.status_code == 200:
-          soup = BeautifulSoup(response.text, "html.parser")
-          # Extract and print relevant data from the HTML
-          print(soup.title.text)
-      ```
+    #   if response.status_code == 200:
+    #       soup = BeautifulSoup(response.text, "html.parser")
+    #       # Extract and print relevant data from the HTML
+    #       print(soup.title.text)
+    #   ```
 
 12. **Problem: GUI Application with Tkinter**
     - Description: Create a simple graphical user interface (GUI) application using the Tkinter library.
