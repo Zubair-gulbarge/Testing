@@ -40,28 +40,28 @@
 #       window.mainloop()
 #       ```
 
-13. **Problem: Data Visualization with Matplotlib**
-    - Description: Use Matplotlib to create visualizations from a dataset.
-    - Code:
-      ```python
-      import matplotlib.pyplot as plt
-      import numpy as np
+# 13. **Problem: Data Visualization with Matplotlib**
+#     - Description: Use Matplotlib to create visualizations from a dataset.
+#     - Code:
+#       ```python
+#       import matplotlib.pyplot as plt
+#       import numpy as np
 
-      # Generate sample data
-      x = np.linspace(0, 10, 100)
-      y = np.sin(x)
+#       # Generate sample data
+#       x = np.linspace(0, 10, 100)
+#       y = np.sin(x)
 
-      # Create a plot
-      plt.plot(x, y, label="Sine Function")
+#       # Create a plot
+#       plt.plot(x, y, label="Sine Function")
 
-      # Add labels and legend
-      plt.xlabel("X-axis")
-      plt.ylabel("Y-axis")
-      plt.title("Sine Function Plot")
-      plt.legend()
+#       # Add labels and legend
+#       plt.xlabel("X-axis")
+#       plt.ylabel("Y-axis")
+#       plt.title("Sine Function Plot")
+#       plt.legend()
 
-      # Show the plot
-      plt.show()
-      ```
+#       # Show the plot
+#       plt.show()
+#       ```
 
-These advanced problems cover a range of topics including web scraping, GUI application development, and data visualization. Feel free to explore these challenges to enhance your Python skills in different domains!
+# These advanced problems cover a range of topics including web scraping, GUI application development, and data visualization. Feel free to explore these challenges to enhance your Python skills in different domains!
