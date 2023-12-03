@@ -15,30 +15,30 @@
     #       print(soup.title.text)
     #   ```
 
-12. **Problem: GUI Application with Tkinter**
-    - Description: Create a simple graphical user interface (GUI) application using the Tkinter library.
-    - Code:
-      ```python
-      import tkinter as tk
+# 12. **Problem: GUI Application with Tkinter**
+#     - Description: Create a simple graphical user interface (GUI) application using the Tkinter library.
+#     - Code:
+#       ```python
+#       import tkinter as tk
 
-      def on_button_click():
-          label.config(text="Button Clicked!")
+#       def on_button_click():
+#           label.config(text="Button Clicked!")
 
-      # Create main window
-      window = tk.Tk()
-      window.title("Tkinter GUI")
+#       # Create main window
+#       window = tk.Tk()
+#       window.title("Tkinter GUI")
 
-      # Create button and label
-      button = tk.Button(window, text="Click me!", command=on_button_click)
-      label = tk.Label(window, text="Welcome to Tkinter!")
+#       # Create button and label
+#       button = tk.Button(window, text="Click me!", command=on_button_click)
+#       label = tk.Label(window, text="Welcome to Tkinter!")
 
-      # Pack widgets
-      button.pack(pady=10)
-      label.pack()
+#       # Pack widgets
+#       button.pack(pady=10)
+#       label.pack()
 
-      # Start main loop
-      window.mainloop()
-      ```
+#       # Start main loop
+#       window.mainloop()
+#       ```
 
 13. **Problem: Data Visualization with Matplotlib**
     - Description: Use Matplotlib to create visualizations from a dataset.
