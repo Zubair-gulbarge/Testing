@@ -29,3 +29,12 @@
 # # Evaluate the model
 # mse = mean_squared_error(y_test, predictions)
 # print("Mean Squared Error:", mse)
+
+import requests
+
+api_url = "https://jsonplaceholder.typicode.com/posts/1"
+response = requests.get(api_url)
+
+if response.status_code == 200:
+    data = response.json()
+    print("Title:", data["title"])
