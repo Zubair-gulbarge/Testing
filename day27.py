@@ -12,3 +12,8 @@
 # print(df.describe())
 # print(df.groupby("category")["value"].mean())
 # df.plot(x="date", y="value", kind="line")
+
+# Problem: Web Development with Flask
+
+# Description: Create a simple web application using the Flask framework.
+# Code:
