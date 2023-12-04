@@ -53,16 +53,16 @@
 # Description: Perform basic natural language processing tasks using the NLTK library.
 # Code:
 
-import nltk
-from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
+# import nltk
+# from nltk.tokenize import word_tokenize
+# from nltk.corpus import stopwords
 
-nltk.download("punkt")
-nltk.download("stopwords")
+# nltk.download("punkt")
+# nltk.download("stopwords")
 
-text = "This is a sample text for natural language processing."
-tokens = word_tokenize(text)
-filtered_tokens = [word for word in tokens if word.lower() not in stopwords.words("english")]
+# text = "This is a sample text for natural language processing."
+# tokens = word_tokenize(text)
+# filtered_tokens = [word for word in tokens if word.lower() not in stopwords.words("english")]
 
-print("Original Tokens:", tokens)
-print("Filtered Tokens:", filtered_tokens)
+# print("Original Tokens:", tokens)
+# print("Filtered Tokens:", filtered_tokens)
