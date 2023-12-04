@@ -47,3 +47,8 @@
 # cv2.imshow("Grayscale Image", gray_img)
 # cv2.waitKey(0)
 # cv2.destroyAllWindows()
+
+# Problem: Natural Language Processing with NLTK
+
+# Description: Perform basic natural language processing tasks using the NLTK library.
+# Code:
