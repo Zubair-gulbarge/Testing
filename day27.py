@@ -34,16 +34,16 @@
 # Description: Use the OpenCV library to perform basic image processing tasks.
 # Code:
 
-import cv2
+# import cv2
 
-# Read an image from file
-img = cv2.imread("image.jpg")
+# # Read an image from file
+# img = cv2.imread("image.jpg")
 
-# Convert the image to grayscale
-gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+# # Convert the image to grayscale
+# gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
-# Display the original and processed images
-cv2.imshow("Original Image", img)
-cv2.imshow("Grayscale Image", gray_img)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+# # Display the original and processed images
+# cv2.imshow("Original Image", img)
+# cv2.imshow("Grayscale Image", gray_img)
+# cv2.waitKey(0)
+# cv2.destroyAllWindows()
