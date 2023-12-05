@@ -24,20 +24,20 @@
 # Description: Use the Prophet library for time series forecasting on a given dataset.
 # Code:
 
-from fbprophet import Prophet
-import pandas as pd
+# from fbprophet import Prophet
+# import pandas as pd
 
-# Load time series data
-data = pd.read_csv("time_series_data.csv")
-data.columns = ["ds", "y"]
+# # Load time series data
+# data = pd.read_csv("time_series_data.csv")
+# data.columns = ["ds", "y"]
 
-# Create and fit the Prophet model
-model = Prophet()
-model.fit(data)
+# # Create and fit the Prophet model
+# model = Prophet()
+# model.fit(data)
 
-# Make future predictions
-future = model.make_future_dataframe(periods=365)
-forecast = model.predict(future)
+# # Make future predictions
+# future = model.make_future_dataframe(periods=365)
+# forecast = model.predict(future)
 
-# Plot the forecast
-fig = model.plot(forecast)
+# # Plot the forecast
+# fig = model.plot(forecast)
