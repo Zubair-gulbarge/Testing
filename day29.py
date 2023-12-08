@@ -71,3 +71,18 @@ print("Filtered Tokens:", filtered_tokens)
 
 # Description: Implement asynchronous programming using the Asyncio library.
 # Code:
+import asyncio
+
+async def print_message(message, delay):
+    await asyncio.sleep(delay)
+    print(message)
+
+async def main():
+    tasks = [
+        print_message("Hello", 2),
+        print_message("Asyncio", 1),
+        print_message("World", 3),
+    ]
+    await asyncio.gather(*tasks)
+
+asyncio.run(main())
