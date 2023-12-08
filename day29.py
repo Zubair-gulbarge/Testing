@@ -46,3 +46,23 @@ plt.show()
 
 # Description: Perform basic text processing tasks using the Natural Language Toolkit (NLTK).
 # Code:
+
+import nltk
+from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
+
+nltk.download("punkt")
+nltk.download("stopwords")
+
+# Sample text
+text = "This is a sample sentence for tokenization and stopwords removal."
+
+# Tokenize the text
+tokens = word_tokenize(text)
+
+# Remove stopwords
+stop_words = set(stopwords.words("english"))
+filtered_tokens = [word for word in tokens if word.lower() not in stop_words]
+
+print("Original Tokens:", tokens)
+print("Filtered Tokens:", filtered_tokens)
