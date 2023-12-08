@@ -21,3 +21,8 @@ paragraphs = soup.find_all("p")
 print(f"Title: {title}")
 for paragraph in paragraphs:
     print(paragraph.text)
+
+# Problem: Data Visualization with Matplotlib
+
+# Description: Create a visualization using the Matplotlib library.
+# Code:
