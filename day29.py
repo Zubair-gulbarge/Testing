@@ -27,20 +27,20 @@ for paragraph in paragraphs:
 # Description: Create a visualization using the Matplotlib library.
 # Code:
 
-import matplotlib.pyplot as plt
-import numpy as np
+# import matplotlib.pyplot as plt
+# import numpy as np
 
-# Generate sample data
-x = np.linspace(0, 10, 100)
-y = np.sin(x)
+# # Generate sample data
+# x = np.linspace(0, 10, 100)
+# y = np.sin(x)
 
-# Plot the data
-plt.plot(x, y, label="Sine Function")
-plt.xlabel("X-axis")
-plt.ylabel("Y-axis")
-plt.title("Sine Function Plot")
-plt.legend()
-plt.show()
+# # Plot the data
+# plt.plot(x, y, label="Sine Function")
+# plt.xlabel("X-axis")
+# plt.ylabel("Y-axis")
+# plt.title("Sine Function Plot")
+# plt.legend()
+# plt.show()
 
 # Problem: Natural Language Processing with NLTK
 
