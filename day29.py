@@ -41,3 +41,8 @@ plt.ylabel("Y-axis")
 plt.title("Sine Function Plot")
 plt.legend()
 plt.show()
+
+# Problem: Natural Language Processing with NLTK
+
+# Description: Perform basic text processing tasks using the Natural Language Toolkit (NLTK).
+# Code:
