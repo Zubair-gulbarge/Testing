@@ -24,3 +24,20 @@ asyncio.run(main())
 
 # Description: Use the Pillow library to perform basic image processing tasks.
 # Code:
+
+from PIL import Image, ImageFilter
+
+# Open an image file
+original_image = Image.open("input_image.jpg")
+
+# Display image size and format
+print(f"Image Size: {original_image.size}, Format: {original_image.format}")
+
+# Convert the image to grayscale
+grayscale_image = original_image.convert("L")
+grayscale_image.save("grayscale_image.jpg")
+
+# Apply a blur filter to the image
+blurred_image = original_image.filter(ImageFilter.BLUR)
+blurred_image.save("blurred_image.jpg")
+
