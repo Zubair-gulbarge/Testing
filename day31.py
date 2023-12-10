@@ -66,3 +66,23 @@ for paragraph in paragraphs:
 
 # Description: Create visualizations using the Matplotlib library.
 # Code:
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Generate data for plotting
+x = np.linspace(0, 10, 100)
+y1 = np.sin(x)
+y2 = np.cos(x)
+
+# Create a line plot
+plt.plot(x, y1, label="sin(x)")
+plt.plot(x, y2, label="cos(x)")
+
+# Add labels and a legend
+plt.xlabel("x-axis")
+plt.ylabel("y-axis")
+plt.legend()
+
+# Show the plot
+plt.show()
