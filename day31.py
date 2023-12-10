@@ -20,3 +20,7 @@ async def main():
 
 asyncio.run(main())
 
+# Problem: Image Processing with Pillow
+
+# Description: Use the Pillow library to perform basic image processing tasks.
+# Code:
