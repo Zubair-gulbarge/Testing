@@ -26,3 +26,8 @@ predictions = model.predict(X_test)
 # Evaluate the model
 mse = mean_squared_error(y_test, predictions)
 print(f"Mean Squared Error: {mse}")
+
+# Problem: Flask Web Development
+
+# Description: Create a simple web application using the Flask framework.
+# Code:
