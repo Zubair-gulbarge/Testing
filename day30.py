@@ -42,3 +42,8 @@ def home():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+# Problem: Database Interaction with SQLAlchemy
+
+# Description: Use the SQLAlchemy library to interact with a database.
+# Code:
