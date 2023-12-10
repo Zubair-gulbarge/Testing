@@ -45,3 +45,19 @@ blurred_image.save("blurred_image.jpg")
 
 # Description: Use Beautiful Soup to scrape information from a website.
 # Code:
+
+import requests
+from bs4 import BeautifulSoup
+
+# Make a request to a website
+url = "https://example.com"
+response = requests.get(url)
+
+# Parse the HTML content
+soup = BeautifulSoup(response.text, "html.parser")
+
+# Extract information from the page
+title = soup.title.text
+paragraphs = soup.find_all("p")
+for paragraph in paragraphs:
+    print(paragraph.text)
