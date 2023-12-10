@@ -41,3 +41,7 @@ grayscale_image.save("grayscale_image.jpg")
 blurred_image = original_image.filter(ImageFilter.BLUR)
 blurred_image.save("blurred_image.jpg")
 
+# Problem: Web Scraping with Beautiful Soup
+
+# Description: Use Beautiful Soup to scrape information from a website.
+# Code:
