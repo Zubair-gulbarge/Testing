@@ -61,17 +61,17 @@
 # Description: Analyze data using the Pandas library.
 # Code:
 
-import pandas as pd
+# import pandas as pd
 
-# Create a DataFrame
-data = {'Name': ['Alice', 'Bob', 'Charlie'],
-        'Age': [25, 30, 22],
-        'City': ['New York', 'San Francisco', 'Los Angeles']}
-df = pd.DataFrame(data)
+# # Create a DataFrame
+# data = {'Name': ['Alice', 'Bob', 'Charlie'],
+#         'Age': [25, 30, 22],
+#         'City': ['New York', 'San Francisco', 'Los Angeles']}
+# df = pd.DataFrame(data)
 
-# Display the DataFrame
-print(df)
+# # Display the DataFrame
+# print(df)
 
-# Perform basic data analysis
-print("Average Age:", df['Age'].mean())
-print("Most common city:", df['City'].mode()[0])
+# # Perform basic data analysis
+# print("Average Age:", df['Age'].mean())
+# print("Most common city:", df['City'].mode()[0])
