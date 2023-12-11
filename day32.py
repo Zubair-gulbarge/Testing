@@ -75,3 +75,8 @@
 # # Perform basic data analysis
 # print("Average Age:", df['Age'].mean())
 # print("Most common city:", df['City'].mode()[0])
+
+# Problem: Implementing a Decorator
+
+# Description: Create and use a decorator in Python.
+# Code:
