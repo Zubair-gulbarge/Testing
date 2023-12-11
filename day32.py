@@ -12,3 +12,8 @@
 # # Extract and print JSON data
 # data = response.json()
 # print(data)
+
+# Problem: Creating a Flask Web Application
+
+# Description: Build a simple web application using the Flask framework.
+# Code:
