@@ -34,24 +34,25 @@
 # Description: Create a class hierarchy with inheritance.
 # Code:
 
-class Animal:
-    def __init__(self, name):
-        self.name = name
+# class Animal:
+#     def __init__(self, name):
+#         self.name = name
 
-    def speak(self):
-        raise NotImplementedError("Subclasses must implement the speak method")
+#     def speak(self):
+#         raise NotImplementedError("Subclasses must implement the speak method")
 
-class Dog(Animal):
-    def speak(self):
-        return f"{self.name} says Woof!"
+# class Dog(Animal):
+#     def speak(self):
+#         return f"{self.name} says Woof!"
 
-class Cat(Animal):
-    def speak(self):
-        return f"{self.name} says Meow!"
+# class Cat(Animal):
+#     def speak(self):
+#         return f"{self.name} says Meow!"
 
-# Usage
-dog = Dog("Buddy")
-cat = Cat("Whiskers")
+# # Usage
+# dog = Dog("Buddy")
+# cat = Cat("Whiskers")
 
-print(dog.speak())  # Output: Buddy says Woof!
-print(cat.speak())  # Output: Whiskers says Meow!
+# print(dog.speak())  # Output: Buddy says Woof!
+# print(cat.speak())  # Output: Whiskers says Meow!
+
