@@ -56,3 +56,7 @@
 # print(dog.speak())  # Output: Buddy says Woof!
 # print(cat.speak())  # Output: Whiskers says Meow!
 
+# Problem: Data Analysis with Pandas
+
+# Description: Analyze data using the Pandas library.
+# Code:
