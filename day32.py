@@ -28,3 +28,8 @@
 
 # if __name__ == "__main__":
 #     app.run(debug=True)
+
+# Problem: Implementing a Class with Inheritance
+
+# Description: Create a class hierarchy with inheritance.
+# Code:
