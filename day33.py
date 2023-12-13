@@ -62,22 +62,22 @@ conn.close()
 # Description: Scrape data from a website using the requests and BeautifulSoup libraries.
 # Code:
 
-import requests
-from bs4 import BeautifulSoup
+# import requests
+# from bs4 import BeautifulSoup
 
-url = 'https://example.com'
-response = requests.get(url)
+# url = 'https://example.com'
+# response = requests.get(url)
 
-soup = BeautifulSoup(response.text, 'html.parser')
+# soup = BeautifulSoup(response.text, 'html.parser')
 
-# Extract data from the HTML
-title = soup.title.text
-paragraphs = soup.find_all('p')
+# # Extract data from the HTML
+# title = soup.title.text
+# paragraphs = soup.find_all('p')
 
-print(f'Title: {title}')
-print('Paragraphs:')
-for paragraph in paragraphs:
-    print(paragraph.text)
+# print(f'Title: {title}')
+# print('Paragraphs:')
+# for paragraph in paragraphs:
+#     print(paragraph.text)
 
 # Problem: Asynchronous Programming with asyncio
 
