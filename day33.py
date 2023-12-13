@@ -32,3 +32,27 @@ thread2.join()
 
 # Description: Use the SQLite database in Python.
 # Code:
+
+import sqlite3
+
+# Connect to SQLite database (creates a new file if not exists)
+conn = sqlite3.connect('example.db')
+
+# Create a cursor object
+cursor = conn.cursor()
+
+# Create a table
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS users (
+        id INTEGER PRIMARY KEY,
+        username TEXT,
+        email TEXT
+    )
+''')
+
+# Insert data into the table
+cursor.execute("INSERT INTO users (username, email) VALUES (?, ?)", ('john_doe', 'john@example.com'))
+
+# Commit changes and close connection
+conn.commit()
+conn.close()
