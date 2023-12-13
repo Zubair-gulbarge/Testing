@@ -56,3 +56,8 @@ cursor.execute("INSERT INTO users (username, email) VALUES (?, ?)", ('john_doe',
 # Commit changes and close connection
 conn.commit()
 conn.close()
+
+# Problem: Web Scraping with BeautifulSoup
+
+# Description: Scrape data from a website using the requests and BeautifulSoup libraries.
+# Code:
