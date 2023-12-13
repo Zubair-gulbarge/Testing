@@ -27,3 +27,8 @@ thread2.start()
 # Wait for threads to finish
 thread1.join()
 thread2.join()
+
+# Problem: Working with SQLite Database
+
+# Description: Use the SQLite database in Python.
+# Code:
