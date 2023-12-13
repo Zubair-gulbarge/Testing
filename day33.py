@@ -78,3 +78,8 @@ print(f'Title: {title}')
 print('Paragraphs:')
 for paragraph in paragraphs:
     print(paragraph.text)
+
+# Problem: Asynchronous Programming with asyncio
+
+# Description: Explore asynchronous programming using the asyncio module.
+# Code:
