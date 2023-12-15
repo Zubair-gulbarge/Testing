@@ -77,15 +77,15 @@ if __name__ == '__main__':
 # Description: Implement a basic neural network using the TensorFlow library.
 # Code:
 
-import tensorflow as tf
-from tensorflow.keras import layers
+# import tensorflow as tf
+# from tensorflow.keras import layers
 
-# Create a simple neural network model
-model = tf.keras.Sequential([
-    layers.Dense(128, activation='relu', input_shape=(784,)),
-    layers.Dropout(0.2),
-    layers.Dense(10, activation='softmax')
-])
+# # Create a simple neural network model
+# model = tf.keras.Sequential([
+#     layers.Dense(128, activation='relu', input_shape=(784,)),
+#     layers.Dropout(0.2),
+#     layers.Dense(10, activation='softmax')
+# ])
 
-# Compile the model
-model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+# # Compile the model
+# model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
