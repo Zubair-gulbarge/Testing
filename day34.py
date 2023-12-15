@@ -24,3 +24,7 @@ decoded_data = json.loads(json_data)
 # Print Python dictionary
 print(decoded_data)
 
+# Problem: Sending Email with smtplib
+
+# Description: Send an email using the smtplib library.
+# Code:
