@@ -29,32 +29,32 @@ print(decoded_data)
 # Description: Send an email using the smtplib library.
 # Code:
 
-import smtplib
-from email.mime.text import MIMEText
+# import smtplib
+# from email.mime.text import MIMEText
 
-# Sender and recipient email addresses
-sender_email = 'your_email@gmail.com'
-recipient_email = 'recipient_email@example.com'
+# # Sender and recipient email addresses
+# sender_email = 'your_email@gmail.com'
+# recipient_email = 'recipient_email@example.com'
 
-# Your email credentials
-username = 'your_email@gmail.com'
-password = 'your_email_password'
+# # Your email credentials
+# username = 'your_email@gmail.com'
+# password = 'your_email_password'
 
-# Email content
-subject = 'Test Email'
-body = 'This is a test email sent from Python.'
+# # Email content
+# subject = 'Test Email'
+# body = 'This is a test email sent from Python.'
 
-# Create MIMEText object
-msg = MIMEText(body)
-msg['Subject'] = subject
-msg['From'] = sender_email
-msg['To'] = recipient_email
+# # Create MIMEText object
+# msg = MIMEText(body)
+# msg['Subject'] = subject
+# msg['From'] = sender_email
+# msg['To'] = recipient_email
 
-# Connect to SMTP server and send email
-with smtplib.SMTP('smtp.gmail.com', 587) as server:
-    server.starttls()
-    server.login(username, password)
-    server.sendmail(sender_email, recipient_email, msg.as_string())
+# # Connect to SMTP server and send email
+# with smtplib.SMTP('smtp.gmail.com', 587) as server:
+#     server.starttls()
+#     server.login(username, password)
+#     server.sendmail(sender_email, recipient_email, msg.as_string())
 
 # Problem: Creating a REST API with Flask
 
