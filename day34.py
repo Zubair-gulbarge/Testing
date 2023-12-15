@@ -60,3 +60,14 @@ with smtplib.SMTP('smtp.gmail.com', 587) as server:
 
 # Description: Create a simple REST API using the Flask framework.
 # Code:
+
+from flask import Flask, jsonify
+
+app = Flask(__name__)
+
+@app.route('/api/greet', methods=['GET'])
+def greet():
+    return jsonify(message='Hello, Flask API!')
+
+if __name__ == '__main__':
+    app.run(debug=True)
