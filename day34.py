@@ -56,3 +56,7 @@ with smtplib.SMTP('smtp.gmail.com', 587) as server:
     server.login(username, password)
     server.sendmail(sender_email, recipient_email, msg.as_string())
 
+# Problem: Creating a REST API with Flask
+
+# Description: Create a simple REST API using the Flask framework.
+# Code:
