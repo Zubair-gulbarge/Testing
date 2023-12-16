@@ -23,13 +23,13 @@
 # Description: Implement asynchronous programming using the asyncio library.
 # Code:
 
-import asyncio
+# import asyncio
 
-async def hello_world():
-    print("Hello,")
-    await asyncio.sleep(1)
-    print("World!")
+# async def hello_world():
+#     print("Hello,")
+#     await asyncio.sleep(1)
+#     print("World!")
 
-# Create an event loop and run the coroutine
-loop = asyncio.get_event_loop()
-loop.run_until_complete(hello_world())
+# # Create an event loop and run the coroutine
+# loop = asyncio.get_event_loop()
+# loop.run_until_complete(hello_world())
