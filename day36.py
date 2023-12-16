@@ -17,3 +17,4 @@
 # titles = soup.find_all('h2')
 # for title in titles:
 #     print(title.text)
+
