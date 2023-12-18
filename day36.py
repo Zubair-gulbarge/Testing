@@ -62,3 +62,27 @@
 
 # Description: Interact with an SQLite database in Python.
 # Code:
+
+import sqlite3
+
+# Connect to SQLite database (creates if not exists)
+conn = sqlite3.connect('example.db')
+
+# Create a cursor object
+cursor = conn.cursor()
+
+# Execute SQL queries
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS users (
+        id INTEGER PRIMARY KEY,
+        name TEXT,
+        age INTEGER
+    )
+''')
+
+# Insert data into the table
+cursor.execute('INSERT INTO users (name, age) VALUES (?, ?)', ('John Doe', 30))
+
+# Commit changes and close the connection
+conn.commit()
+conn.close()
