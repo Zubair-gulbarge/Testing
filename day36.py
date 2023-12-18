@@ -57,3 +57,8 @@
 
 # # Start the Tkinter event loop
 # window.mainloop()
+
+# Problem: Working with Databases using SQLite
+
+# Description: Interact with an SQLite database in Python.
+# Code:
