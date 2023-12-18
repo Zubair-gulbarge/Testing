@@ -38,3 +38,22 @@
 
 # Description: Build a graphical user interface (GUI) using the Tkinter library.
 # Code:
+
+import tkinter as tk
+
+def on_button_click():
+    label.config(text="Button Clicked!")
+
+# Create a simple Tkinter window
+window = tk.Tk()
+window.title("Tkinter Example")
+
+# Add a button and label
+button = tk.Button(window, text="Click Me", command=on_button_click)
+button.pack(pady=10)
+
+label = tk.Label(window, text="Welcome to Tkinter!")
+label.pack(pady=10)
+
+# Start the Tkinter event loop
+window.mainloop()
