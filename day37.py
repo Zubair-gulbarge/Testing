@@ -43,3 +43,8 @@ plt.ylabel('sin(x)')
 plt.title('Sine Function')
 plt.legend()
 plt.show()
+
+Problem: RESTful API with Flask
+
+# Description: Build a simple RESTful API using the Flask framework.
+# Code:
