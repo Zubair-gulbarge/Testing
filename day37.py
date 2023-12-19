@@ -23,3 +23,8 @@
 # # Evaluate the model
 # accuracy = accuracy_score(y_test, predictions)
 # print(f'Accuracy: {accuracy}')
+
+# Problem: Data Visualization with Matplotlib
+
+# Description: Create visualizations using the Matplotlib library.
+# Code:
