@@ -48,3 +48,14 @@
 
 # Description: Build a simple RESTful API using the Flask framework.
 # Code:
+
+from flask import Flask, jsonify
+
+app = Flask(__name__)
+
+@app.route('/api/hello', methods=['GET'])
+def hello():
+    return jsonify(message='Hello, API!')
+
+if __name__ == '__main__':
+    app.run(debug=True)
