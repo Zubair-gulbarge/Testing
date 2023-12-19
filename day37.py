@@ -29,22 +29,22 @@
 # Description: Create visualizations using the Matplotlib library.
 # Code:
 
-import matplotlib.pyplot as plt
-import numpy as np
+# import matplotlib.pyplot as plt
+# import numpy as np
 
-# Generate sample data
-x = np.linspace(0, 2 * np.pi, 100)
-y = np.sin(x)
+# # Generate sample data
+# x = np.linspace(0, 2 * np.pi, 100)
+# y = np.sin(x)
 
-# Plot the sine function
-plt.plot(x, y, label='sin(x)')
-plt.xlabel('x')
-plt.ylabel('sin(x)')
-plt.title('Sine Function')
-plt.legend()
-plt.show()
+# # Plot the sine function
+# plt.plot(x, y, label='sin(x)')
+# plt.xlabel('x')
+# plt.ylabel('sin(x)')
+# plt.title('Sine Function')
+# plt.legend()
+# plt.show()
 
-Problem: RESTful API with Flask
+# Problem: RESTful API with Flask
 
 # Description: Build a simple RESTful API using the Flask framework.
 # Code:
