@@ -8,24 +8,24 @@
 # Create a new Django app: python manage.py startapp myapp
 
 # Inside views.py (myapp/views.py)
-from django.http import HttpResponse
+# from django.http import HttpResponse
 
-def hello(request):
-    return HttpResponse("Hello, Django!")
+# def hello(request):
+#     return HttpResponse("Hello, Django!")
 
-# Inside urls.py (myapp/urls.py)
-from django.urls import path
-from .views import hello
+# # Inside urls.py (myapp/urls.py)
+# from django.urls import path
+# from .views import hello
 
-urlpatterns = [
-    path('hello/', hello, name='hello'),
-]
+# urlpatterns = [
+#     path('hello/', hello, name='hello'),
+# ]
 
-# Inside myproject/urls.py
-from django.contrib import admin
-from django.urls import path, include
+# # Inside myproject/urls.py
+# from django.contrib import admin
+# from django.urls import path, include
 
-urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('myapp/', include('myapp.urls')),
-]
+# urlpatterns = [
+#     path('admin/', admin.site.urls),
+#     path('myapp/', include('myapp.urls')),
+# ]
