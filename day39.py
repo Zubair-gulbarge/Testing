@@ -26,3 +26,8 @@
 # plt.ylabel('Y-axis')
 # plt.title('Sinusoidal Curve')
 # plt.show()
+
+
+# Problem: Working with Databases and SQLAlchemy
+# Description: Create a Python script to interact with a SQLite database using SQLAlchemy.
+# Code:
