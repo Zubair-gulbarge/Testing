@@ -15,14 +15,14 @@
 # Description: Create a visualization using the Matplotlib library.
 # Code:
 
-import matplotlib.pyplot as plt
-import numpy as np
+# import matplotlib.pyplot as plt
+# import numpy as np
 
-x = np.linspace(0, 10, 100)
-y = np.sin(x)
+# x = np.linspace(0, 10, 100)
+# y = np.sin(x)
 
-plt.plot(x, y)
-plt.xlabel('X-axis')
-plt.ylabel('Y-axis')
-plt.title('Sinusoidal Curve')
-plt.show()
+# plt.plot(x, y)
+# plt.xlabel('X-axis')
+# plt.ylabel('Y-axis')
+# plt.title('Sinusoidal Curve')
+# plt.show()
