@@ -10,3 +10,8 @@
 #     print("World")
 
 # asyncio.run(hello_world())
+
+# Problem: Data Visualization with Matplotlib
+# Description: Create a visualization using the Matplotlib library.
+# Code:
+
