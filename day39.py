@@ -2,11 +2,11 @@
 # Description: Implement a simple asynchronous program using the asyncio library.
 # Code:
 
-import asyncio
+# import asyncio
 
-async def hello_world():
-    print("Hello")
-    await asyncio.sleep(1)
-    print("World")
+# async def hello_world():
+#     print("Hello")
+#     await asyncio.sleep(1)
+#     print("World")
 
-asyncio.run(hello_world())
+# asyncio.run(hello_world())
