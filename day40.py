@@ -43,12 +43,12 @@
 # Description: Use the Natural Language Toolkit (NLTK) to perform basic NLP tasks.
 # Code:
 
-import nltk
-from nltk.tokenize import word_tokenize
-nltk.download('punkt')
+# import nltk
+# from nltk.tokenize import word_tokenize
+# nltk.download('punkt')
 
-text = "This is a sample sentence for NLP."
-tokens = word_tokenize(text)
+# text = "This is a sample sentence for NLP."
+# tokens = word_tokenize(text)
 
-print("Original Text:", text)
-print("Tokenized Words:", tokens)
+# print("Original Text:", text)
+# print("Tokenized Words:", tokens)
