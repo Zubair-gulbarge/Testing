@@ -23,3 +23,7 @@
 
 # # Start the main loop
 # root.mainloop()
+
+# Problem: REST API Development with Flask
+# Description: Implement a simple REST API using the Flask framework.
+# Code:
