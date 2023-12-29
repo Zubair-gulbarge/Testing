@@ -19,10 +19,10 @@
 
 
 
-import sys
+# import sys
 
-# Taking multiple space-separated inputs using sys.stdin
-values = list(map(int, sys.stdin.readline().split()))
+# # Taking multiple space-separated inputs using sys.stdin
+# values = list(map(int, sys.stdin.readline().split()))
 
-# Example: Input: 1 2 3
-print(values)
+# # Example: Input: 1 2 3
+# print(values)
