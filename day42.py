@@ -31,19 +31,19 @@ import numpy as np
 # Description: Scrape data from a website using the BeautifulSoup library.
 # Code:
 
-import requests
-from bs4 import BeautifulSoup
+# import requests
+# from bs4 import BeautifulSoup
 
-# Specify the URL to scrape
-url = 'https://example.com'
-response = requests.get(url)
+# # Specify the URL to scrape
+# url = 'https://example.com'
+# response = requests.get(url)
 
-# Parse the HTML content
-soup = BeautifulSoup(response.text, 'html.parser')
+# # Parse the HTML content
+# soup = BeautifulSoup(response.text, 'html.parser')
 
-# Extract data from the webpage
-title = soup.title.text
-paragraphs = soup.find_all('p')
+# # Extract data from the webpage
+# title = soup.title.text
+# paragraphs = soup.find_all('p')
 
-print(f'Title: {title}')
-print(f'Paragraphs: {len(paragraphs)}')
+# print(f'Title: {title}')
+# print(f'Paragraphs: {len(paragraphs)}')
