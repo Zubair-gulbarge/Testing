@@ -51,3 +51,21 @@ import numpy as np
 # Problem: Asynchronous Web Requests with aiohttp
 # Description: Make asynchronous web requests using the aiohttp library.
 # Code:
+
+import aiohttp
+import asyncio
+
+async def fetch(url):
+    async with aiohttp.ClientSession() as session:
+        async with session.get(url) as response:
+            return await response.text()
+
+async def main():
+    urls = ['https://example.com', 'https://example.org']
+    tasks = [fetch(url) for url in urls]
+    responses = await asyncio.gather(*tasks)
+
+    for url, response in zip(urls, responses):
+        print(f'Content from {url}: {len(response)} characters')
+
+asyncio.run(main())
