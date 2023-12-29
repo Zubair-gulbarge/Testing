@@ -47,3 +47,7 @@ import numpy as np
 
 # print(f'Title: {title}')
 # print(f'Paragraphs: {len(paragraphs)}')
+
+# Problem: Asynchronous Web Requests with aiohttp
+# Description: Make asynchronous web requests using the aiohttp library.
+# Code:
