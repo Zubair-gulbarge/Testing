@@ -15,3 +15,14 @@ values = list(map(int, input("Enter multiple values separated by space: ").split
 
 # Example: Input: 1 2 3
 print(values)
+
+
+
+
+import sys
+
+# Taking multiple space-separated inputs using sys.stdin
+values = list(map(int, sys.stdin.readline().split()))
+
+# Example: Input: 1 2 3
+print(values)
