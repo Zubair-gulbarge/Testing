@@ -11,10 +11,10 @@
 
 
 # Taking multiple integer inputs using a list and map
-values = list(map(int, input("Enter multiple values separated by space: ").split()))
+# values = list(map(int, input("Enter multiple values separated by space: ").split()))
 
-# Example: Input: 1 2 3
-print(values)
+# # Example: Input: 1 2 3
+# print(values)
 
 
 
