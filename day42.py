@@ -25,3 +25,8 @@ import numpy as np
 # # Evaluate the model
 # mse = mean_squared_error(y_test, predictions)
 # print(f'Mean Squared Error: {mse}')
+
+
+# Problem: Web Scraping with BeautifulSoup
+# Description: Scrape data from a website using the BeautifulSoup library.
+# Code:
