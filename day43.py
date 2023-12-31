@@ -38,3 +38,7 @@
 # cv2.imshow('Blurred Image', blurred_image)
 # cv2.waitKey(0)
 # cv2.destroyAllWindows()
+
+# Problem: Unit Testing with unittest
+# Description: Write unit tests for a Python function using the unittest framework.
+# Code:
