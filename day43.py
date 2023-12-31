@@ -21,20 +21,20 @@
 # Description: Perform basic image processing tasks using the OpenCV library.
 # Code:
 
-import cv2
-import numpy as np
+# import cv2
+# import numpy as np
 
-# Read an image from file
-image = cv2.imread('path/to/image.jpg')
+# # Read an image from file
+# image = cv2.imread('path/to/image.jpg')
 
-# Convert the image to grayscale
-grayscale_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+# # Convert the image to grayscale
+# grayscale_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-# Apply Gaussian blur
-blurred_image = cv2.GaussianBlur(grayscale_image, (5, 5), 0)
+# # Apply Gaussian blur
+# blurred_image = cv2.GaussianBlur(grayscale_image, (5, 5), 0)
 
-# Display the original and processed images
-cv2.imshow('Original Image', image)
-cv2.imshow('Blurred Image', blurred_image)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+# # Display the original and processed images
+# cv2.imshow('Original Image', image)
+# cv2.imshow('Blurred Image', blurred_image)
+# cv2.waitKey(0)
+# cv2.destroyAllWindows()
