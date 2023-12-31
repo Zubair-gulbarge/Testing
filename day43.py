@@ -17,3 +17,7 @@
 # plt.legend()
 # plt.show()
 
+# Problem: Image Processing with OpenCV
+# Description: Perform basic image processing tasks using the OpenCV library.
+# Code:
+
