@@ -2,10 +2,10 @@
 # Description: Implement a simple machine learning model using Scikit-Learn.
 # Code:
 
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_squared_error
-import numpy as np
+# from sklearn.model_selection import train_test_split
+# from sklearn.linear_model import LinearRegression
+# from sklearn.metrics import mean_squared_error
+# import numpy as np
 
 # Generate sample data
 # np.random.seed(42)
@@ -52,20 +52,20 @@ import numpy as np
 # Description: Make asynchronous web requests using the aiohttp library.
 # Code:
 
-import aiohttp
-import asyncio
+# import aiohttp
+# import asyncio
 
-async def fetch(url):
-    async with aiohttp.ClientSession() as session:
-        async with session.get(url) as response:
-            return await response.text()
+# async def fetch(url):
+#     async with aiohttp.ClientSession() as session:
+#         async with session.get(url) as response:
+#             return await response.text()
 
-async def main():
-    urls = ['https://example.com', 'https://example.org']
-    tasks = [fetch(url) for url in urls]
-    responses = await asyncio.gather(*tasks)
+# async def main():
+#     urls = ['https://example.com', 'https://example.org']
+#     tasks = [fetch(url) for url in urls]
+#     responses = await asyncio.gather(*tasks)
 
-    for url, response in zip(urls, responses):
-        print(f'Content from {url}: {len(response)} characters')
+#     for url, response in zip(urls, responses):
+#         print(f'Content from {url}: {len(response)} characters')
 
-asyncio.run(main())
+# asyncio.run(main())
