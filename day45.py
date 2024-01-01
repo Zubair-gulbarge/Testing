@@ -10,3 +10,8 @@
 #     print("World")
 
 # asyncio.run(hello_world())
+
+# Problem: Web Scraping with Beautiful Soup
+# Description: Extract information from web pages using the Beautiful Soup library for web scraping.
+# Code:
+
