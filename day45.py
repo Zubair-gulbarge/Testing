@@ -32,3 +32,13 @@
 # Problem: Natural Language Processing with NLTK
 # Description: Perform basic natural language processing tasks using the Natural Language Toolkit (NLTK).
 # Code:
+
+import nltk
+from nltk.tokenize import word_tokenize
+
+nltk.download('punkt')
+
+# Tokenize a sentence
+sentence = "Natural Language Processing is fascinating!"
+tokens = word_tokenize(sentence)
+print(tokens)
