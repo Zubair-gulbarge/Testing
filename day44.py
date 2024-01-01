@@ -21,3 +21,14 @@ print(new_json_data)
 # Description: Create a simple RESTful API using the Flask framework.
 # Code:
 
+from flask import Flask, jsonify
+
+app = Flask(__name__)
+
+@app.route('/api/hello', methods=['GET'])
+def hello():
+    return jsonify(message='Hello, World!')
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
