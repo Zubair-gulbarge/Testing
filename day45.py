@@ -28,3 +28,7 @@
 # # Extract and print title
 # title = soup.title.text
 # print(f'Title: {title}')
+
+# Problem: Natural Language Processing with NLTK
+# Description: Perform basic natural language processing tasks using the Natural Language Toolkit (NLTK).
+# Code:
