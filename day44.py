@@ -58,3 +58,12 @@ connection.close()
 # Problem: Working with APIs (Requests Library)
 # Description: Make API requests and process JSON responses using the requests library.
 # Code:
+
+import requests
+
+# Make a GET request to an API
+response = requests.get('https://jsonplaceholder.typicode.com/todos/1')
+
+# Print JSON response
+data = response.json()
+print(data)
