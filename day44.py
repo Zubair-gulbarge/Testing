@@ -36,3 +36,20 @@ if __name__ == '__main__':
 # Description: Interact with a SQLite database using the sqlite3 module.
 # Code:
 
+import sqlite3
+
+# Connect to SQLite database (creates if not exists)
+connection = sqlite3.connect('sample.db')
+
+# Create a cursor object
+cursor = connection.cursor()
+
+# Create a table
+cursor.execute('CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT, age INTEGER)')
+
+# Insert data
+cursor.execute('INSERT INTO users (name, age) VALUES (?, ?)', ('John Doe', 25))
+
+# Commit changes and close connection
+connection.commit()
+connection.close()
