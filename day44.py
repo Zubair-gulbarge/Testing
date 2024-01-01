@@ -16,3 +16,8 @@ print(f'Name: {data["name"]}, Age: {data["age"]}, City: {data["city"]}')
 # Convert Python object to JSON
 new_json_data = json.dumps(data, indent=2)
 print(new_json_data)
+
+# Problem: Building a RESTful API with Flask
+# Description: Create a simple RESTful API using the Flask framework.
+# Code:
+
