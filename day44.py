@@ -32,3 +32,7 @@ def hello():
 if __name__ == '__main__':
     app.run(debug=True)
 
+# Problem: Working with Databases (SQLite)
+# Description: Interact with a SQLite database using the sqlite3 module.
+# Code:
+
