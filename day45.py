@@ -15,3 +15,16 @@
 # Description: Extract information from web pages using the Beautiful Soup library for web scraping.
 # Code:
 
+import requests
+from bs4 import BeautifulSoup
+
+# Make a GET request to a webpage
+response = requests.get('https://example.com')
+html_content = response.content
+
+# Parse HTML with Beautiful Soup
+soup = BeautifulSoup(html_content, 'html.parser')
+
+# Extract and print title
+title = soup.title.text
+print(f'Title: {title}')
