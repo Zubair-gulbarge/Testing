@@ -42,3 +42,8 @@
 # sentence = "Natural Language Processing is fascinating!"
 # tokens = word_tokenize(sentence)
 # print(tokens)
+
+
+# Problem: Machine Learning with Scikit-Learn
+# Description: Build a simple machine learning model using the Scikit-Learn library.
+# Code:
