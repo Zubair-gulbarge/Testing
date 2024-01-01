@@ -53,3 +53,8 @@ cursor.execute('INSERT INTO users (name, age) VALUES (?, ?)', ('John Doe', 25))
 # Commit changes and close connection
 connection.commit()
 connection.close()
+
+
+# Problem: Working with APIs (Requests Library)
+# Description: Make API requests and process JSON responses using the requests library.
+# Code:
