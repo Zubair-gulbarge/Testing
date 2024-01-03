@@ -33,3 +33,22 @@
 # Problem: GUI Programming with Tkinter
 # Description: Develop a basic graphical user interface (GUI) using the Tkinter library.
 # Code:
+
+import tkinter as tk
+
+def on_button_click():
+    label.config(text="Button Clicked!")
+
+# Create main window
+window = tk.Tk()
+window.title("Tkinter Example")
+
+# Create and pack widgets
+button = tk.Button(window, text="Click me!", command=on_button_click)
+button.pack(pady=10)
+
+label = tk.Label(window, text="Hello, Tkinter!")
+label.pack(pady=10)
+
+# Run the main loop
+window.mainloop()
