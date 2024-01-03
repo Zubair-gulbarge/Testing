@@ -52,3 +52,7 @@
 
 # # Run the main loop
 # window.mainloop()
+
+# Problem: Working with Databases (SQLite)
+# Description: Interact with a SQLite database using the SQLite library in Python.
+# Code:
