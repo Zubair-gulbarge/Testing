@@ -56,3 +56,21 @@
 # Problem: Working with Databases (SQLite)
 # Description: Interact with a SQLite database using the SQLite library in Python.
 # Code:
+
+import sqlite3
+
+# Connect to SQLite database (create if not exists)
+conn = sqlite3.connect('example.db')
+
+# Create a cursor object
+cursor = conn.cursor()
+
+# Execute SQL queries
+cursor.execute('CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT)')
+
+# Insert data
+cursor.execute('INSERT INTO users (name) VALUES (?)', ('John Doe',))
+
+# Commit changes and close connection
+conn.commit()
+conn.close()
