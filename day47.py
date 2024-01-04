@@ -35,15 +35,15 @@
 # Problem: Web Scraping with BeautifulSoup
 # Description: Scrape data from a website using the BeautifulSoup library.
 # Code:
-import requests
-from bs4 import BeautifulSoup
+# import requests
+# from bs4 import BeautifulSoup
 
-# Make a GET request to a website
-response = requests.get('https://example.com')
+# # Make a GET request to a website
+# response = requests.get('https://example.com')
 
-# Parse HTML content with BeautifulSoup
-soup = BeautifulSoup(response.text, 'html.parser')
+# # Parse HTML content with BeautifulSoup
+# soup = BeautifulSoup(response.text, 'html.parser')
 
-# Extract information (example: title)
-title = soup.title.string
-print(f'Title: {title}')
+# # Extract information (example: title)
+# title = soup.title.string
+# print(f'Title: {title}')
