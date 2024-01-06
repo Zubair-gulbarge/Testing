@@ -30,3 +30,7 @@
 #     class Meta:
 #         model = User
 #         fields = ['name', 'age']
+
+# Problem: Django - URL Patterns and Navigation
+# Description: Set up URL patterns and navigation in a Django project.
+# Code (urls.py):
