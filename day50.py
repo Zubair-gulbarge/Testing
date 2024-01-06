@@ -22,3 +22,11 @@
 # Problem: Django - Forms and User Input
 # Description: Implement forms and handle user input in a Django web application.
 # Code (forms.py):
+
+from django import forms
+from .models import User
+
+class UserForm(forms.ModelForm):
+    class Meta:
+        model = User
+        fields = ['name', 'age']
