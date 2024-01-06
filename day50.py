@@ -18,3 +18,7 @@
 # def user_list(request):
 #     users = User.objects.all()
 #     return render(request, 'user_list.html', {'users': users})
+
+# Problem: Django - Forms and User Input
+# Description: Implement forms and handle user input in a Django web application.
+# Code (forms.py):
