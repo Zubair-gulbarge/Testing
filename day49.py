@@ -46,3 +46,18 @@
 # Problem: Flask - Dynamic Routes and Templates
 # Description: Create dynamic routes and use templates in a Flask web application.
 # Code:
+
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return 'Home Page'
+
+@app.route('/user/<username>')
+def user_profile(username):
+    return render_template('profile.html', username=username)
+
+if __name__ == '__main__':
+    app.run(debug=True)
