@@ -34,3 +34,9 @@
 # Problem: Django - URL Patterns and Navigation
 # Description: Set up URL patterns and navigation in a Django project.
 # Code (urls.py):
+from django.urls import path
+from .views import user_list
+
+urlpatterns = [
+    path('users/', user_list, name='user_list'),
+]
