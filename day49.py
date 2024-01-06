@@ -42,3 +42,7 @@
 
 # if __name__ == '__main__':
 #     app.run(debug=True)
+
+# Problem: Flask - Dynamic Routes and Templates
+# Description: Create dynamic routes and use templates in a Flask web application.
+# Code:
