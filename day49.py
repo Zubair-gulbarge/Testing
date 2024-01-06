@@ -61,3 +61,7 @@
 
 # if __name__ == '__main__':
 #     app.run(debug=True)
+
+# Problem: Django Basics (Web Framework)
+# Description: Set up a basic Django project and create a simple web application.
+# Code:
