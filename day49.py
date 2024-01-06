@@ -66,11 +66,11 @@
 # Description: Set up a basic Django project and create a simple web application.
 # Code:
 # Install Django
-pip install django
+# pip install django
 
-# Create a Django project
-django-admin startproject myproject
+# # Create a Django project
+# django-admin startproject myproject
 
-# Create a Django app
-cd myproject
-python manage.py startapp myapp
+# # Create a Django app
+# cd myproject
+# python manage.py startapp myapp
