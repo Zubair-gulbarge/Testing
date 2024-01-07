@@ -33,3 +33,7 @@
 #     class Meta:
 #         model = User
 #         fields = ['id', 'name', 'age']
+
+# Problem: Django - Testing and Deployment
+# - Description: Write tests for a Django project and deploy it to a hosting platform.
+# - Code (tests.py):
