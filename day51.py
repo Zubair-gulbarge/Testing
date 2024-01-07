@@ -37,11 +37,11 @@
 # Problem: Django - Testing and Deployment
 # - Description: Write tests for a Django project and deploy it to a hosting platform.
 # - Code (tests.py):
-from django.test import TestCase
-from .models import User
+# from django.test import TestCase
+# from .models import User
 
-class UserTestCase(TestCase):
-    def test_user_creation(self):
-        User.objects.create(name='John Doe', age=25)
-        user = User.objects.get(name='John Doe')
-        self.assertEqual(user.age, 25)
+# class UserTestCase(TestCase):
+#     def test_user_creation(self):
+#         User.objects.create(name='John Doe', age=25)
+#         user = User.objects.get(name='John Doe')
+#         self.assertEqual(user.age, 25)
