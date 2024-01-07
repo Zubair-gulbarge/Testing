@@ -21,3 +21,7 @@
 # @login_required
 # def profile(request):
 #     return render(request, 'profile.html', {'user': request.user})
+
+# Problem: Django - REST Framework (APIs)
+# Description: Create a simple API using Django REST Framework.
+# Code (serializers.py):
