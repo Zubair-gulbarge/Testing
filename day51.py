@@ -9,3 +9,7 @@
 
 # MEDIA_URL = '/media/'
 # MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+# Problem: Django - Authentication and User Accounts
+# Description: Implement user authentication and manage user accounts in a Django project.
+# Code (views.py):
