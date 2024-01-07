@@ -25,3 +25,11 @@
 # Problem: Django - REST Framework (APIs)
 # Description: Create a simple API using Django REST Framework.
 # Code (serializers.py):
+
+from rest_framework import serializers
+from .models import User
+
+class UserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ['id', 'name', 'age']
