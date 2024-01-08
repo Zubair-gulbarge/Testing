@@ -35,18 +35,18 @@
 # - Description: Use Pandas to load and analyze a dataset, perform data cleaning, and generate insights.
 # - Code:
 
-import pandas as pd
+# import pandas as pd
 
-# Load dataset
-df = pd.read_csv('example.csv')
+# # Load dataset
+# df = pd.read_csv('example.csv')
 
-# Display basic information
-print(df.head())
-print(df.describe())
+# # Display basic information
+# print(df.head())
+# print(df.describe())
 
-# Data cleaning
-df.dropna(inplace=True)
+# # Data cleaning
+# df.dropna(inplace=True)
 
-# Analyze data
-average_age = df['Age'].mean()
-print(f'Average Age: {average_age}')
+# # Analyze data
+# average_age = df['Age'].mean()
+# print(f'Average Age: {average_age}')
