@@ -30,3 +30,7 @@
 # plt.ylabel('Y-axis')
 # plt.title('Scatter Plot')
 # plt.show()
+
+# Problem: Data Analysis with Pandas
+# - Description: Use Pandas to load and analyze a dataset, perform data cleaning, and generate insights.
+# - Code:
