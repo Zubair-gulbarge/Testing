@@ -50,3 +50,7 @@
 # # Analyze data
 # average_age = df['Age'].mean()
 # print(f'Average Age: {average_age}')
+
+# Problem: Machine Learning with Scikit-Learn
+# - Description: Build a simple machine learning model using Scikit-Learn for tasks such as classification or regression.
+# - Code:
