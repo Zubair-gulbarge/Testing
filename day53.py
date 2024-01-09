@@ -24,3 +24,7 @@
 # # Frequency distribution
 # freq_dist = FreqDist(filtered_words)
 # print(freq_dist)
+
+# Problem: GUI Application with Tkinter
+# - Description: Build a simple graphical user interface (GUI) application using the Tkinter library.
+# - Code:
