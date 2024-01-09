@@ -53,14 +53,14 @@
 # - Description: Understand and implement asynchronous programming using the asyncio library.
 # - Code:
 
-import asyncio
+# import asyncio
 
-async def print_message(message):
-    await asyncio.sleep(1)
-    print(message)
+# async def print_message(message):
+#     await asyncio.sleep(1)
+#     print(message)
 
-async def main():
-    tasks = [print_message(f"Message {i}") for i in range(5)]
-    await asyncio.gather(*tasks)
+# async def main():
+#     tasks = [print_message(f"Message {i}") for i in range(5)]
+#     await asyncio.gather(*tasks)
 
-asyncio.run(main())
+# asyncio.run(main())
