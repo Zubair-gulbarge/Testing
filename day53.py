@@ -29,22 +29,22 @@
 # - Description: Build a simple graphical user interface (GUI) application using the Tkinter library.
 # - Code:
 
-import tkinter as tk
+# import tkinter as tk
 
-def on_button_click():
-    label.config(text="Button Clicked!")
+# def on_button_click():
+#     label.config(text="Button Clicked!")
 
-# Create main window
-window = tk.Tk()
-window.title("Simple GUI")
+# # Create main window
+# window = tk.Tk()
+# window.title("Simple GUI")
 
-# Create widgets
-label = tk.Label(window, text="Hello, Tkinter!")
-button = tk.Button(window, text="Click Me", command=on_button_click)
+# # Create widgets
+# label = tk.Label(window, text="Hello, Tkinter!")
+# button = tk.Button(window, text="Click Me", command=on_button_click)
 
-# Arrange widgets
-label.pack(pady=10)
-button.pack()
+# # Arrange widgets
+# label.pack(pady=10)
+# button.pack()
 
-# Run the application
-window.mainloop()
+# # Run the application
+# window.mainloop()
