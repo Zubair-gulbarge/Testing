@@ -118,3 +118,15 @@ docker run -p 4000:80 my-python-app
 # Problem: Testing with pytest
 # - Description: Write and execute tests for a Python application using the pytest framework.
 # - Code:
+
+# Install pytest: pip install pytest
+
+# Write test functions in test_myapp.py
+def test_addition():
+    assert 1 + 1 == 2
+
+def test_subtraction():
+    assert 3 - 1 == 2
+
+# Run tests
+pytest test_myapp.py
