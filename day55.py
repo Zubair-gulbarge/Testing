@@ -12,3 +12,7 @@ def greet():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+# Problem: Database Interaction with SQLAlchemy
+# - Description: Connect Python to a relational database using the SQLAlchemy library.
+# - Code:
