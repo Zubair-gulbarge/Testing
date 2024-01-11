@@ -82,3 +82,9 @@ urlpatterns = [
 
 # Run the development server
 python manage.py runserver
+
+# Problem: Containerization with Docker
+# - Description: Package a Python application into a Docker container.
+# - Code:
+
+# Create a Dockerfile:
