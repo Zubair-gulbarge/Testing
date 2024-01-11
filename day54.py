@@ -21,21 +21,21 @@
 # - Description: Automate desktop tasks using the PyAutoGUI library.
 # - Code:
 
-import pyautogui
-import time
+# import pyautogui
+# import time
 
-# Open Notepad
-pyautogui.press('winleft')
-pyautogui.write('notepad')
-pyautogui.press('enter')
-time.sleep(1)
+# # Open Notepad
+# pyautogui.press('winleft')
+# pyautogui.write('notepad')
+# pyautogui.press('enter')
+# time.sleep(1)
 
-# Type a message
-pyautogui.write('Hello, PyAutoGUI!')
+# # Type a message
+# pyautogui.write('Hello, PyAutoGUI!')
 
-# Save and close
-pyautogui.hotkey('ctrl', 's')
-time.sleep(1)
-pyautogui.write('example.txt')
-pyautogui.press('enter')
-pyautogui.hotkey('alt', 'f4')
+# # Save and close
+# pyautogui.hotkey('ctrl', 's')
+# time.sleep(1)
+# pyautogui.write('example.txt')
+# pyautogui.press('enter')
+# pyautogui.hotkey('alt', 'f4')
