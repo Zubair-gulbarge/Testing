@@ -114,3 +114,7 @@ CMD ["python", "app.py"]
 
 docker build -t my-python-app .
 docker run -p 4000:80 my-python-app
+
+# Problem: Testing with pytest
+# - Description: Write and execute tests for a Python application using the pytest framework.
+# - Code:
