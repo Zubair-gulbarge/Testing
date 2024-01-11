@@ -50,3 +50,7 @@ session.commit()
 users = session.query(User).all()
 for user in users:
     print(f'User: {user.name}, Age: {user.age}')
+
+# Problem: Web Development with Django
+# - Description: Create a basic web application using the Django framework.
+# - Code:
