@@ -109,3 +109,8 @@ ENV NAME World
 
 # Run app.py when the container launches
 CMD ["python", "app.py"]
+
+# Build and run the Docker container:
+
+docker build -t my-python-app .
+docker run -p 4000:80 my-python-app
