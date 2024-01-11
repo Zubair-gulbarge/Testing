@@ -16,3 +16,7 @@
 # paragraphs = soup.find_all('p')
 # for paragraph in paragraphs:
 #     print(paragraph.text)
+
+# Problem: Desktop Automation with PyAutoGUI
+# - Description: Automate desktop tasks using the PyAutoGUI library.
+# - Code:
