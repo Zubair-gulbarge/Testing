@@ -90,30 +90,30 @@ python manage.py runserver
 # Create a Dockerfile:
 
 # Use an official Python runtime as a parent image
-FROM python:3.8-slim
+# FROM python:3.8-slim
 
-# Set the working directory to /app
-WORKDIR /app
+# # Set the working directory to /app
+# WORKDIR /app
 
-# Copy the current directory contents into the container at /app
-COPY . /app
+# # Copy the current directory contents into the container at /app
+# COPY . /app
 
-# Install any needed packages specified in requirements.txt
-RUN pip install --trusted-host pypi.python.org -r requirements.txt
+# # Install any needed packages specified in requirements.txt
+# RUN pip install --trusted-host pypi.python.org -r requirements.txt
 
-# Make port 80 available to the world outside this container
-EXPOSE 80
+# # Make port 80 available to the world outside this container
+# EXPOSE 80
 
-# Define environment variable
-ENV NAME World
+# # Define environment variable
+# ENV NAME World
 
-# Run app.py when the container launches
-CMD ["python", "app.py"]
+# # Run app.py when the container launches
+# CMD ["python", "app.py"]
 
-# Build and run the Docker container:
+# # Build and run the Docker container:
 
-docker build -t my-python-app .
-docker run -p 4000:80 my-python-app
+# docker build -t my-python-app .
+# docker run -p 4000:80 my-python-app
 
 # Problem: Testing with pytest
 # - Description: Write and execute tests for a Python application using the pytest framework.
