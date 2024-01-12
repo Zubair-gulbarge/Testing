@@ -58,30 +58,30 @@ for user in users:
 # Install Django: pip install django
 
 # Create a new Django project
-django-admin startproject myproject
+# django-admin startproject myproject
 
-# Create a new Django app
-cd myproject
-python manage.py startapp myapp
+# # Create a new Django app
+# cd myproject
+# python manage.py startapp myapp
 
-# Define views in myapp/views.py
-from django.http import HttpResponse
+# # Define views in myapp/views.py
+# from django.http import HttpResponse
 
-def home(request):
-    return HttpResponse("Hello, Django!")
+# def home(request):
+#     return HttpResponse("Hello, Django!")
 
-# Configure URLs in myproject/urls.py
-from django.contrib import admin
-from django.urls import path
-from myapp.views import home
+# # Configure URLs in myproject/urls.py
+# from django.contrib import admin
+# from django.urls import path
+# from myapp.views import home
 
-urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', home, name='home'),
-]
+# urlpatterns = [
+#     path('admin/', admin.site.urls),
+#     path('', home, name='home'),
+# ]
 
-# Run the development server
-python manage.py runserver
+# # Run the development server
+# python manage.py runserver
 
 # Problem: Containerization with Docker
 # - Description: Package a Python application into a Docker container.
