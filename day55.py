@@ -136,30 +136,30 @@ Problem: Continuous Integration with GitHub Actions
 - Description: Implement continuous integration for a Python project using GitHub Actions.
 - Code:
 
-Create a GitHub Actions workflow file (.github/workflows/main.yml):
+# Create a GitHub Actions workflow file (.github/workflows/main.yml):
 
-name: Python CI
+# name: Python CI
 
-on:
-  push:
-    branches:
-      - main
+# on:
+#   push:
+#     branches:
+#       - main
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
 
-    steps:
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.8
+#     steps:
+#     - name: Set up Python
+#       uses: actions/setup-python@v2
+#       with:
+#         python-version: 3.8
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
+#     - name: Install dependencies
+#       run: |
+#         python -m pip install --upgrade pip
+#         pip install -r requirements.txt
 
-    - name: Run tests
-      run: |
-        pytest
+#     - name: Run tests
+#       run: |
+#         pytest
