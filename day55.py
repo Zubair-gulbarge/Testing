@@ -132,9 +132,9 @@ def test_subtraction():
 pytest test_myapp.py
 
 
-Problem: Continuous Integration with GitHub Actions
-- Description: Implement continuous integration for a Python project using GitHub Actions.
-- Code:
+# Problem: Continuous Integration with GitHub Actions
+# - Description: Implement continuous integration for a Python project using GitHub Actions.
+# - Code:
 
 # Create a GitHub Actions workflow file (.github/workflows/main.yml):
 
