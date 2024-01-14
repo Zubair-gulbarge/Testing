@@ -59,3 +59,7 @@
 # # Evaluate accuracy
 # accuracy = accuracy_score(y_test, predictions)
 # print(f'Accuracy: {accuracy}')
+
+# Problem: Natural Language Processing with NLTK
+# - Description: Perform basic natural language processing tasks using the NLTK library.
+# - Code:
