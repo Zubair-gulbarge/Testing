@@ -30,3 +30,7 @@
 # # Perform data analysis tasks (e.g., mean, count)
 # print(df['Age'].mean())
 # print(df['City'].value_counts())
+
+# Problem: Machine Learning with Scikit-Learn
+# - Description: Build a simple machine learning model using the Scikit-Learn library.
+# - Code:
