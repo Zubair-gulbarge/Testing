@@ -16,17 +16,17 @@
 # - Description: Perform basic data analysis tasks using the Pandas library.
 # - Code:
 
-import pandas as pd
+# import pandas as pd
 
-# Create a DataFrame
-data = {'Name': ['Alice', 'Bob', 'Charlie'],
-        'Age': [25, 30, 35],
-        'City': ['New York', 'San Francisco', 'Los Angeles']}
-df = pd.DataFrame(data)
+# # Create a DataFrame
+# data = {'Name': ['Alice', 'Bob', 'Charlie'],
+#         'Age': [25, 30, 35],
+#         'City': ['New York', 'San Francisco', 'Los Angeles']}
+# df = pd.DataFrame(data)
 
-# Display the DataFrame
-print(df)
+# # Display the DataFrame
+# print(df)
 
-# Perform data analysis tasks (e.g., mean, count)
-print(df['Age'].mean())
-print(df['City'].value_counts())
+# # Perform data analysis tasks (e.g., mean, count)
+# print(df['Age'].mean())
+# print(df['City'].value_counts())
