@@ -112,6 +112,6 @@
 # for i, paragraph in enumerate(paragraphs, 1):
 #     print(f'Paragraph {i}: {paragraph.text}')
 
-Problem: GUI Application with Tkinter
-- Description: Build a simple graphical user interface (GUI) application using the Tkinter library.
-- Code:
+# Problem: GUI Application with Tkinter
+# - Description: Build a simple graphical user interface (GUI) application using the Tkinter library.
+# - Code:
