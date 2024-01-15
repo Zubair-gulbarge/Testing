@@ -91,23 +91,23 @@
 # - Description: Scrape data from a website using the BeautifulSoup library.
 # - Code:
 
-import requests
-from bs4 import BeautifulSoup
+# import requests
+# from bs4 import BeautifulSoup
 
-# Specify the URL
-url = 'https://example.com'
+# # Specify the URL
+# url = 'https://example.com'
 
-# Send a GET request
-response = requests.get(url)
+# # Send a GET request
+# response = requests.get(url)
 
-# Parse the HTML content
-soup = BeautifulSoup(response.text, 'html.parser')
+# # Parse the HTML content
+# soup = BeautifulSoup(response.text, 'html.parser')
 
-# Extract data
-title = soup.title.string
-paragraphs = soup.find_all('p')
+# # Extract data
+# title = soup.title.string
+# paragraphs = soup.find_all('p')
 
-# Display the extracted data
-print(f'Title: {title}')
-for i, paragraph in enumerate(paragraphs, 1):
-    print(f'Paragraph {i}: {paragraph.text}')
+# # Display the extracted data
+# print(f'Title: {title}')
+# for i, paragraph in enumerate(paragraphs, 1):
+#     print(f'Paragraph {i}: {paragraph.text}')
