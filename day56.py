@@ -64,25 +64,25 @@
 # - Description: Perform basic natural language processing tasks using the NLTK library.
 # - Code:
 
-import nltk
-from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
-from nltk.probability import FreqDist
+# import nltk
+# from nltk.tokenize import word_tokenize
+# from nltk.corpus import stopwords
+# from nltk.probability import FreqDist
 
-# Download NLTK data
-nltk.download('punkt')
-nltk.download('stopwords')
+# # Download NLTK data
+# nltk.download('punkt')
+# nltk.download('stopwords')
 
-# Sample text
-text = "Natural language processing is a subfield of artificial intelligence."
+# # Sample text
+# text = "Natural language processing is a subfield of artificial intelligence."
 
-# Tokenize the text
-words = word_tokenize(text)
+# # Tokenize the text
+# words = word_tokenize(text)
 
-# Remove stopwords
-stop_words = set(stopwords.words('english'))
-filtered_words = [word for word in words if word.lower() not in stop_words]
+# # Remove stopwords
+# stop_words = set(stopwords.words('english'))
+# filtered_words = [word for word in words if word.lower() not in stop_words]
 
-# Calculate word frequencies
-freq_dist = FreqDist(filtered_words)
-print(freq_dist.most_common(5))
+# # Calculate word frequencies
+# freq_dist = FreqDist(filtered_words)
+# print(freq_dist.most_common(5))
