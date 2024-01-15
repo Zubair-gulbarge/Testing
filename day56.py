@@ -86,3 +86,7 @@
 # # Calculate word frequencies
 # freq_dist = FreqDist(filtered_words)
 # print(freq_dist.most_common(5))
+
+Problem: Web Scraping with BeautifulSoup
+- Description: Scrape data from a website using the BeautifulSoup library.
+- Code:
