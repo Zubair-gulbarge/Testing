@@ -22,10 +22,10 @@
 # Description: Implement the bubble sort algorithm.
 # Code:
 
-def bubble_sort(arr):
-    n = len(arr)
+# def bubble_sort(arr):
+#     n = len(arr)
 
-    for i in range(n):
-        for j in range(0, n-i-1):
-            if arr[j] > arr[j+1]:
-                arr[j], arr[j+1] = arr[j+1], arr[j]
+#     for i in range(n):
+#         for j in range(0, n-i-1):
+#             if arr[j] > arr[j+1]:
+#                 arr[j], arr[j+1] = arr[j+1], arr[j]
