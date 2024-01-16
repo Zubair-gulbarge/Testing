@@ -53,3 +53,8 @@
 #             while current.next:
 #                 current = current.next
 #             current.next = new_node
+
+# Problem: Depth-First Search (DFS)
+
+# Description: Implement the depth-first search algorithm on a graph.
+# Code:
