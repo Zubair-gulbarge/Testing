@@ -16,3 +16,8 @@
 #             high = mid - 1
 
 #     return -1
+
+# Problem: Bubble Sort
+
+# Description: Implement the bubble sort algorithm.
+# Code:
