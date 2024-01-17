@@ -32,3 +32,19 @@
 #             arr[k] = right_half[j]
 #             j += 1
 #             k += 1
+
+def binary_search(arr, low, high, x):
+    """Helper function for finding insertion point of a sorted array."""
+    if high >= low:
+        mid = (high + low) // 2
+        # If element is present at the middle itself
+        if arr[mid] == x:
+            return mid
+            # If element is smaller than mid, then it can only be present in left subarray
+        elif arr[mid] > x:
+                return binary_search(arr, low, mid - 1, x)
+                # Else the element can only be present in the right subarray
+        else:
+                return binary_search(arr, mid + 1, high, x)
+    else:
+                return -1
