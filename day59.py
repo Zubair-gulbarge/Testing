@@ -44,17 +44,17 @@
 # Description: Implement the breadth-first search algorithm on a graph.
 # Code:
 
-from collections import deque
+# from collections import deque
 
-def bfs(graph, start):
-    visited = set()
-    queue = deque([start])
-    visited.add(start)
+# def bfs(graph, start):
+#     visited = set()
+#     queue = deque([start])
+#     visited.add(start)
 
-    while queue:
-        current = queue.popleft()
-        print(current)
+#     while queue:
+#         current = queue.popleft()
+#         print(current)
 
-        for neighbor in graph[current] - visited:
-            queue.append(neighbor)
-            visited.add(neighbor)
+#         for neighbor in graph[current] - visited:
+#             queue.append(neighbor)
+#             visited.add(neighbor)
