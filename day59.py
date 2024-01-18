@@ -14,3 +14,8 @@
 #         inorder_traversal(root.left)
 #         print(root.value)
 #         inorder_traversal(root.right)
+
+# Problem: Hash Table
+
+# Description: Implement a basic hash table.
+# Code:
