@@ -3,14 +3,14 @@
 # Description: Implement the inorder traversal of a binary tree.
 # Code:
 
-class TreeNode:
-    def __init__(self, value):
-        self.value = value
-        self.left = None
-        self.right = None
+# class TreeNode:
+#     def __init__(self, value):
+#         self.value = value
+#         self.left = None
+#         self.right = None
 
-def inorder_traversal(root):
-    if root:
-        inorder_traversal(root.left)
-        print(root.value)
-        inorder_traversal(root.right)
+# def inorder_traversal(root):
+#     if root:
+#         inorder_traversal(root.left)
+#         print(root.value)
+#         inorder_traversal(root.right)
