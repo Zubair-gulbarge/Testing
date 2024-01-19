@@ -34,3 +34,8 @@
 #     def peek(self):
 #         if not self.is_empty():
 #             return self.items[-1]
+
+# Problem: Merge Sort
+
+# Description: Implement the merge sort algorithm.
+# Code:
