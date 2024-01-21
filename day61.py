@@ -31,3 +31,8 @@
 #             while current.next:
 #                 current = current.next
 #             current.next = new_node
+
+# Problem: Binary Search
+
+# Description: Implement the binary search algorithm on a sorted list.
+# Code:
