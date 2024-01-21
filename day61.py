@@ -8,3 +8,8 @@
 #         visited.add(node)
 #         for neighbor in graph[node]:
 #             dfs(graph, neighbor, visited)
+
+# Problem: Linked List Implementation
+
+# Description: Implement a basic linked list data structure.
+# Code:
