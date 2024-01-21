@@ -52,3 +52,7 @@
 #             print(node)
 #             visited.add(node)
 #             queue.extend(neighbor for neighbor in graph[node] if neighbor not in visited)
+
+# Problem: Stack Implementation
+# Description: Implement a basic stack data structure.
+# Code:
