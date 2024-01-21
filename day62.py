@@ -40,15 +40,15 @@
 # Problem: Breadth-First Search (BFS)
 # Description: Implement the breadth-first search algorithm on a graph.
 # Code:
-from collections import deque
+# from collections import deque
 
-def bfs(graph, start):
-    visited = set()
-    queue = deque([start])
+# def bfs(graph, start):
+#     visited = set()
+#     queue = deque([start])
 
-    while queue:
-        node = queue.popleft()
-        if node not in visited:
-            print(node)
-            visited.add(node)
-            queue.extend(neighbor for neighbor in graph[node] if neighbor not in visited)
+#     while queue:
+#         node = queue.popleft()
+#         if node not in visited:
+#             print(node)
+#             visited.add(node)
+#             queue.extend(neighbor for neighbor in graph[node] if neighbor not in visited)
