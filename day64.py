@@ -24,3 +24,7 @@
 #         else:
 #             high = mid - 1
 #     return -1
+
+# Problem: Trie Implementation
+# Description: Implement a basic trie data structure.
+# Code:
