@@ -8,3 +8,7 @@
 #         visited.add(node)
 #         for neighbor in graph[node]:
 #             dfs(graph, neighbor, visited)
+
+# Problem: Binary Search
+# Description: Implement the binary search algorithm on a sorted list.
+# Code:
