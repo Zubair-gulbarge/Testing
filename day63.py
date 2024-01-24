@@ -25,3 +25,7 @@
 #         post_order_traversal(node.left)
 #         post_order_traversal(node.right)
 #         print(node.value)
+
+# Problem: Graph Representation
+# Description: Implement an adjacency list representation of a graph.
+# Code:
