@@ -65,3 +65,13 @@
 # Problem: Binary Tree Implementation
 # Description: Implement a basic binary tree data structure.
 # Code:
+
+class TreeNode:
+    def __init__(self, data):
+        self.data = data
+        self.left = None
+        self.right = None
+
+class BinaryTree:
+    def __init__(self):
+        self.root = None
