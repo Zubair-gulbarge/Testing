@@ -75,3 +75,7 @@
 # class BinaryTree:
 #     def __init__(self):
 #         self.root = None
+
+# Problem: Depth-First Search (DFS) on a Binary Tree
+# Description: Implement the depth-first search algorithm on a binary tree.
+# Code:
