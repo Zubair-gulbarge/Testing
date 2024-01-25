@@ -7,3 +7,7 @@
 #         for j in range(0, n - i - 1):
 #             if arr[j] > arr[j + 1]:
 #                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
+
+# Problem: Merge Sort
+# Description: Implement the merge sort algorithm to sort a list of elements.
+# Code:
