@@ -41,3 +41,7 @@
 #             arr[k] = right_half[j]
 #             j += 1
 #             k += 1
+
+# Problem: Quick Sort
+# Description: Implement the quick sort algorithm to sort a list of elements.
+# Code:
