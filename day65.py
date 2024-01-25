@@ -80,8 +80,8 @@
 # Description: Implement the depth-first search algorithm on a binary tree.
 # Code:
 
-def dfs_binary_tree(node):
-    if node is not None:
-        print(node.data)
-        dfs_binary_tree(node.left)
-        dfs_binary_tree(node.right)
+# def dfs_binary_tree(node):
+#     if node is not None:
+#         print(node.data)
+#         dfs_binary_tree(node.left)
+#         dfs_binary_tree(node.right)
