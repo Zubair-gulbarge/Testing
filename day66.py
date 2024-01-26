@@ -18,3 +18,7 @@
         
 #         if current_node.right:
 #             queue.append(current_node.right)
+
+# Problem: Binary Search Tree (BST) Implementation
+# Description: Implement a basic binary search tree data structure.
+# Code:
