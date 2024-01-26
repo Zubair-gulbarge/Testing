@@ -37,12 +37,12 @@
 # Description: Implement the insertion operation in a binary search tree.
 # Code:
 
-def insert_bst(root, data):
-    if root is None:
-        return TreeNode(data)
-    else:
-        if data < root.data:
-            root.left = insert_bst(root.left, data)
-        else:
-            root.right = insert_bst(root.right, data)
-    return root
+# def insert_bst(root, data):
+#     if root is None:
+#         return TreeNode(data)
+#     else:
+#         if data < root.data:
+#             root.left = insert_bst(root.left, data)
+#         else:
+#             root.right = insert_bst(root.right, data)
+#     return root
