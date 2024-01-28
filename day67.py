@@ -11,3 +11,10 @@
 # Problem: Finding the Height of a Binary Tree
 # Description: Implement a function to find the height of a binary tree.
 # Code:
+
+def find_height(root):
+    if root is None:
+        return -1
+    left_height = find_height(root.left)
+    right_height = find_height(root.right)
+    return max(left_height, right_height) + 1
