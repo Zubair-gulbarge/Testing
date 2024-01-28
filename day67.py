@@ -7,3 +7,7 @@ def inorder_traversal(root):
         inorder_traversal(root.left)
         print(root.data)
         inorder_traversal(root.right)
+
+# Problem: Finding the Height of a Binary Tree
+# Description: Implement a function to find the height of a binary tree.
+# Code:
