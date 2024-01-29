@@ -60,3 +60,7 @@ class PriorityQueue:
         heapq.heappush(self.heap, (priority, item))
     def pop(self):
         return heapq.heappop(self.heap)[1]
+
+# Problem: Detecting Cycles in a Directed Graph
+# Description: Implement a function to detect cycles in a directed graph.
+# Code:
