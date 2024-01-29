@@ -28,3 +28,7 @@
 #         if node not in visited:
 #             dfs(node)
 #     return stack[::-1]
+
+# Problem: Find the Shortest Path in a Weighted Graph using Dijkstra's Algorithm
+# Description: Implement Dijkstra's algorithm to find the shortest path in a weighted graph.
+# Code:
