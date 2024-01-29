@@ -48,3 +48,7 @@
 #                 distances[neighbor] = distance
 #                 heapq.heappush(pq, (distance, neighbor))
 #     return distances
+
+# Problem: Implement a Priority Queue in Python
+# Description: Implement a priority queue data structure in Python.
+# Code:
