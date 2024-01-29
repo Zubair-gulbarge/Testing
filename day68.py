@@ -52,3 +52,11 @@
 # Problem: Implement a Priority Queue in Python
 # Description: Implement a priority queue data structure in Python.
 # Code:
+
+class PriorityQueue:
+    def __init__(self):
+        self.heap = []
+    def push(self, item, priority):
+        heapq.heappush(self.heap, (priority, item))
+    def pop(self):
+        return heapq.heappop(self.heap)[1]
