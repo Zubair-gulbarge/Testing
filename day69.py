@@ -47,3 +47,6 @@ def dls(graph, start, depth, visited=None):
     for next_node in graph[start] - visited:
         dls(graph, next_node, depth - 1, visited)
 
+# Problem: Implement Uniform Cost Search (UCS)
+# Description: Implement the uniform cost search algorithm on a weighted graph.
+# Code:
