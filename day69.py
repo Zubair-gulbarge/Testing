@@ -14,3 +14,7 @@
 #             if neighbor not in visited:
 #                 visited.add(neighbor)
 #                 queue.append(neighbor)
+
+# Problem: Check for Bipartite Graph
+# Description: Determine whether a given graph is bipartite or not.
+# Code:
