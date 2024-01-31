@@ -50,3 +50,16 @@ def dls(graph, start, depth, visited=None):
 # Problem: Implement Uniform Cost Search (UCS)
 # Description: Implement the uniform cost search algorithm on a weighted graph.
 # Code:
+
+import heapq
+def ucs(graph, start):
+    visited = set()
+    heap = [(0, start)]
+    while heap:
+        cost, node = heapq.heappop(heap)
+        if node not in visited:
+            visited.add(node)
+            print(node)
+            for neighbor, weight in graph[node].items():
+                if neighbor not in visited:
+                    heapq.heappush(heap, (cost + weight, neighbor))
