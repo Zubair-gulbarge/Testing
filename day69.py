@@ -32,3 +32,7 @@
 #             elif color[neighbor] == color[node]:
 #                 return False
 #     return True
+
+# Problem: Implement Depth-Limited Search (DLS)
+# Description: Implement the depth-limited search algorithm.
+# Code:
