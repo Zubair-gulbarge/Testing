@@ -53,13 +53,13 @@
 # Description: Implement a priority queue data structure in Python.
 # Code:
 
-class PriorityQueue:
-    def __init__(self):
-        self.heap = []
-    def push(self, item, priority):
-        heapq.heappush(self.heap, (priority, item))
-    def pop(self):
-        return heapq.heappop(self.heap)[1]
+# class PriorityQueue:
+#     def __init__(self):
+#         self.heap = []
+#     def push(self, item, priority):
+#         heapq.heappush(self.heap, (priority, item))
+#     def pop(self):
+#         return heapq.heappop(self.heap)[1]
 
 # Problem: Detecting Cycles in a Directed Graph
 # Description: Implement a function to detect cycles in a directed graph.
