@@ -21,3 +21,7 @@ def is_cyclic(graph):
         if dfs(node):
             return True
     return False
+
+# Problem: Find the Strongly Connected Components (SCCs) in a Directed Graph
+# Description: Implement an algorithm to find the strongly connected components in a directed graph.
+# Code:
