@@ -54,3 +54,7 @@
 #             dfs(transposed, node, scc, visited)
 #             sccs.append(scc)
 #     return sccs
+
+# Problem: Implement the Floyd-Warshall Algorithm for All-Pairs Shortest Path
+# Description: Implement the Floyd-Warshall algorithm to find the shortest paths between all pairs of vertices in a weighted graph.
+# Code:
