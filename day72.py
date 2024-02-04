@@ -11,3 +11,7 @@
 #             if nums[i] > nums[j]:
 #                 dp[i] = max(dp[i], dp[j] + 1)
 #     return max(dp)
+
+# Problem: Find the Maximum Subarray Sum
+# Description: Given an array of integers, find the contiguous subarray (containing at least one number) that has the largest sum and return its sum.
+# Code:
