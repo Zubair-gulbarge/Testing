@@ -24,3 +24,7 @@
 #         current_sum = max(num, current_sum + num)
 #         max_sum = max(max_sum, current_sum)
 #     return max_sum
+
+# Problem: Implement a Trie (Prefix Tree)
+# Description: Implement a trie data structure that supports insertion of words and searching for words.
+# Code:
