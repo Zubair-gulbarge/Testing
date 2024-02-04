@@ -50,3 +50,7 @@
 #                 return False
 #             node = node.children[char]
 #         return node.is_end
+
+# Problem: Implement Breadth-First Search (BFS)
+# Description: Implement the breadth-first search algorithm to traverse a graph.
+# Code:
