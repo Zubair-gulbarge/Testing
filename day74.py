@@ -16,3 +16,7 @@
 #         nums1[k] = nums2[j]
 #         j -= 1
 #         k -= 1
+
+# Problem: Counting Sort
+# Description: Implement the counting sort algorithm to sort an array of integers.
+# Code:
