@@ -30,3 +30,7 @@
 #     for i in range(len(count)):
 #         result.extend([i] * count[i])
 #     return result
+
+# Problem: Implement Quick Sort
+# Description: Implement the quick sort algorithm to sort an array of integers.
+# Code:
