@@ -61,3 +61,7 @@
 #         if s_count[s[i - len(p) + 1]] == 0:
 #             del s_count[s[i - len(p) + 1]]
 #     return result
+
+# Problem: Check If Two Strings Are Anagrams
+# Description: Given two strings s and t, write a function to determine if t is an anagram of s.
+# Code:
