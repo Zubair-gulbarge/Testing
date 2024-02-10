@@ -66,5 +66,5 @@
 # Description: Given two strings s and t, write a function to determine if t is an anagram of s.
 # Code:
 
-def is_anagram(s, t):
-    return sorted(s) == sorted(t)
+# def is_anagram(s, t):
+#     return sorted(s) == sorted(t)
