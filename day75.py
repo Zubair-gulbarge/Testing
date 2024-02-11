@@ -13,3 +13,7 @@
 #         else:
 #             right = mid - 1
 #     return -1
+
+# Problem: Implement Selection Sort
+# Description: Implement the selection sort algorithm to sort an array of integers.
+# Code:
