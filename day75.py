@@ -46,3 +46,7 @@
 #             if nums[j] > nums[j + 1]:
 #                 nums[j], nums[j + 1] = nums[j + 1], nums[j]
 #     return nums
+
+# Problem: Implement Stack Using Queues
+# Description: Implement a stack using queues. You must use only standard operations of a queue.
+# Code:
