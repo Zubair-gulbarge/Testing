@@ -35,11 +35,11 @@
 # Description: Implement the quick sort algorithm to sort an array of integers.
 # Code:
 
-def quick_sort(nums):
-    if len(nums) <= 1:
-        return nums
-    pivot = nums[len(nums) // 2]
-    left = [x for x in nums if x < pivot]
-    middle = [x for x in nums if x == pivot]
-    right = [x for x in nums if x > pivot]
-    return quick_sort(left) + middle + quick_sort(right)
+# def quick_sort(nums):
+#     if len(nums) <= 1:
+#         return nums
+#     pivot = nums[len(nums) // 2]
+#     left = [x for x in nums if x < pivot]
+#     middle = [x for x in nums if x == pivot]
+#     right = [x for x in nums if x > pivot]
+#     return quick_sort(left) + middle + quick_sort(right)
