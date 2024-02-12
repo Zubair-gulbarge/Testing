@@ -11,3 +11,7 @@
 #             j -= 1
 #         nums[j + 1] = key
 #     return nums
+
+# Problem: Check if a String is a Palindrome
+# Description: Determine if a given string is a palindrome.
+# Code:
