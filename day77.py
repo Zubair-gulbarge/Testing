@@ -38,3 +38,7 @@
 #     merged.extend(left[left_index:])
 #     merged.extend(right[right_index:])
 #     return merged
+
+# Problem: Find the Missing Number
+# Description: Given an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the one that is missing from the array.
+# Code:
