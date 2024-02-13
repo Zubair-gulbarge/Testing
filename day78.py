@@ -34,3 +34,7 @@
 # def is_palindrome(s):
 #     s = ''.join(char.lower() for char in s if char.isalnum())
 #     return s == s[::-1]
+
+# Problem: Calculate the Power of a Number
+# Description: Implement a function to calculate the power of a number.
+# Code:
