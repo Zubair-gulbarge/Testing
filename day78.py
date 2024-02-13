@@ -38,3 +38,17 @@
 # Problem: Calculate the Power of a Number
 # Description: Implement a function to calculate the power of a number.
 # Code:
+
+def power(x, n):
+    if n == 0:
+        return 1
+    if n < 0:
+        x = 1 / x
+        n = -n
+    result = 1
+    while n:
+        if n & 1:
+            result *= x
+        x *= x
+        n >>= 1
+    return result
