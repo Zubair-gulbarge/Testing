@@ -83,3 +83,6 @@ def reverse_linked_list(head):
         curr = next_node
     return prev
 
+# Problem: Check if a Binary Tree is Symmetric
+# Description: Given a binary tree, check whether it is a mirror of itself.
+# Code:
