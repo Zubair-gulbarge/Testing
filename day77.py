@@ -12,3 +12,7 @@
 # input_list = [1, -2, 3, 4, -1, 2, 1, -5, 4]
 # result = max_subarray_sum(input_list)
 # print("Maximum subarray sum:", result)
+
+# Problem: Merge Sort Implementation
+# Description: Implement the merge sort algorithm to sort an array of integers.
+# Code:
