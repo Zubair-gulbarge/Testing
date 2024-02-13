@@ -10,3 +10,7 @@
 #     for neighbor in graph[start]:
 #         if neighbor not in visited:
 #             dfs(graph, neighbor, visited)
+
+# Problem: Implement Breadth-First Search (BFS)
+# Description: Implement the Breadth-First Search algorithm to traverse a graph.
+# Code:
