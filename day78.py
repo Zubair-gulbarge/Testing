@@ -26,3 +26,7 @@
 #             print(node)
 #             visited.add(node)
 #             queue.extend(graph[node] - visited)
+
+# Problem: Check if a String is a Palindrome
+# Description: Given a string, determine if it is a palindrome.
+# Code:
