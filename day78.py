@@ -52,3 +52,7 @@ def power(x, n):
         x *= x
         n >>= 1
     return result
+
+# Problem: Find the Longest Common Prefix
+# Description: Given an array of strings, find the longest common prefix amongst them.
+# Code:
