@@ -31,6 +31,6 @@
 # Description: Given a string, determine if it is a palindrome.
 # Code:
 
-def is_palindrome(s):
-    s = ''.join(char.lower() for char in s if char.isalnum())
-    return s == s[::-1]
+# def is_palindrome(s):
+#     s = ''.join(char.lower() for char in s if char.isalnum())
+#     return s == s[::-1]
