@@ -44,3 +44,7 @@
 #     if not min_val < root.val < max_val:
 #         return False
 #     return is_bst(root.left, min_val, root.val) and is_bst(root.right, root.val, max_val)
+
+# Problem: Find the kth Largest Element in an Array
+# Description: Given an unsorted array, find the kth largest element in the array.
+# Code:
