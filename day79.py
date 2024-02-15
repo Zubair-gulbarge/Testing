@@ -7,3 +7,7 @@
 #     expected_sum = n * (n + 1) // 2
 #     actual_sum = sum(nums)
 #     return expected_sum - actual_sum
+
+# Problem: Implement Merge Sort
+# Description: Implement the Merge Sort algorithm to sort a list of integers.
+# Code:
