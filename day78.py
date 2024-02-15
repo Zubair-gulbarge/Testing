@@ -39,19 +39,19 @@
 # Description: Implement a function to calculate the power of a number.
 # Code:
 
-def power(x, n):
-    if n == 0:
-        return 1
-    if n < 0:
-        x = 1 / x
-        n = -n
-    result = 1
-    while n:
-        if n & 1:
-            result *= x
-        x *= x
-        n >>= 1
-    return result
+# def power(x, n):
+#     if n == 0:
+#         return 1
+#     if n < 0:
+#         x = 1 / x
+#         n = -n
+#     result = 1
+#     while n:
+#         if n & 1:
+#             result *= x
+#         x *= x
+#         n >>= 1
+#     return result
 
 # Problem: Find the Longest Common Prefix
 # Description: Given an array of strings, find the longest common prefix amongst them.
