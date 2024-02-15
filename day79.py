@@ -37,3 +37,10 @@
 # Problem: Check if a Binary Tree is a Binary Search Tree (BST)
 # Description: Given a binary tree, determine if it is a Binary Search Tree.
 # Code:
+
+def is_bst(root, min_val=float('-inf'), max_val=float('inf')):
+    if not root:
+        return True
+    if not min_val < root.val < max_val:
+        return False
+    return is_bst(root.left, min_val, root.val) and is_bst(root.right, root.val, max_val)
