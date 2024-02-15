@@ -33,3 +33,7 @@
 #     merged.extend(left[l:])
 #     merged.extend(right[r:])
 #     return merged
+
+# Problem: Check if a Binary Tree is a Binary Search Tree (BST)
+# Description: Given a binary tree, determine if it is a Binary Search Tree.
+# Code:
