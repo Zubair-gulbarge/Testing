@@ -49,6 +49,6 @@
 # Description: Given an unsorted array, find the kth largest element in the array.
 # Code:
 
-def find_kth_largest(nums, k):
-    nums.sort(reverse=True)
-    return nums[k - 1]
+# def find_kth_largest(nums, k):
+#     nums.sort(reverse=True)
+#     return nums[k - 1]
