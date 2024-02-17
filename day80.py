@@ -44,3 +44,7 @@
 # Problem: Count the Number of Words in a Sentence
 # Description: Count the number of words in a given sentence.
 # Code:
+
+def count_words(sentence):
+    words = sentence.split()
+    return len(words)
