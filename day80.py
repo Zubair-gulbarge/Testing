@@ -40,3 +40,7 @@
 # def is_palindrome(s):
 #     s = ''.join(char.lower() for char in s if char.isalnum())
 #     return s == s[::-1]
+
+# Problem: Count the Number of Words in a Sentence
+# Description: Count the number of words in a given sentence.
+# Code:
