@@ -18,3 +18,7 @@
 #         curr_sum = max(num, curr_sum + num)
 #         max_sum = max(max_sum, curr_sum)
 #     return max_sum
+
+# Problem: Implement Bubble Sort
+# Description: Implement the bubble sort algorithm to sort a list of numbers.
+# Code:
