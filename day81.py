@@ -34,3 +34,6 @@
 # Problem: Reverse a String
 # Description: Reverse a given string.
 # Code:
+
+def reverse_string(s):
+    return s[::-1]
