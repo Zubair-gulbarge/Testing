@@ -14,3 +14,7 @@
 
 # def are_anagrams(s1, s2):
 #     return sorted(s1) == sorted(s2)
+
+# Problem: Implement a Stack Using Lists
+# Description: Implement a stack data structure using Python lists.
+# Code:
