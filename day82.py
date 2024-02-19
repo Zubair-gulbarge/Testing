@@ -50,3 +50,7 @@
 #     middle = [x for x in nums if x == pivot]
 #     right = [x for x in nums if x > pivot]
 #     return quick_sort(left) + middle + quick_sort(right)
+
+# Problem: Find the Intersection of Two Arrays
+# Description: Given two arrays, write a function to compute their intersection.
+# Code:
