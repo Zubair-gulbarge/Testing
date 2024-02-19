@@ -7,3 +7,7 @@
 #     expected_sum = n * (n + 1) // 2
 #     actual_sum = sum(nums)
 #     return expected_sum - actual_sum
+
+# Problem: Check if Two Strings are Anagrams
+# Description: Given two strings, check if they are anagrams of each other.
+# Code:
