@@ -37,3 +37,7 @@
 
 #     def size(self):
 #         return len(self.items)
+
+# Problem: Implement Quick Sort
+# Description: Implement the quick sort algorithm to sort a list of numbers.
+# Code:
