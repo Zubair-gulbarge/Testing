@@ -24,3 +24,7 @@
 # Problem: Rotate Array
 # Description: Rotate an array to the right by k steps, where k is non-negative.
 # Code:
+
+def rotate_array(nums, k):
+    k %= len(nums)
+    nums[:] = nums[-k:] + nums[:-k]
