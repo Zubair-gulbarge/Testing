@@ -28,3 +28,7 @@
 # def rotate_array(nums, k):
 #     k %= len(nums)
 #     nums[:] = nums[-k:] + nums[:-k]
+
+# Problem: Valid Parentheses
+# Description: Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+# Code:
