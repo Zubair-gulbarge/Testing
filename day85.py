@@ -20,3 +20,7 @@
 
 # def reverse_words(s):
 #     return ' '.join(s.split()[::-1])
+
+# Problem: Rotate Array
+# Description: Rotate an array to the right by k steps, where k is non-negative.
+# Code:
