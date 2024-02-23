@@ -17,3 +17,6 @@
 # Problem: Reverse Words in a String
 # Description: Given an input string, reverse the string word by word.
 # Code:
+
+def reverse_words(s):
+    return ' '.join(s.split()[::-1])
