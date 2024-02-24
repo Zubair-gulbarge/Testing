@@ -20,3 +20,7 @@
 #         current = current.next
 #     current.next = l1 if l1 else l2
 #     return dummy.next
+
+# Problem: First Unique Character in a String
+# Description: Given a string, find the first non-repeating character in it and return its index. If it doesn't exist, return -1.
+# Code:
