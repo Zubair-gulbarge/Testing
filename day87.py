@@ -12,3 +12,7 @@
 #     if reversed_int > 2**31 - 1:
 #         return 0
 #     return reversed_int * sign
+
+# Problem: Valid Parentheses
+# Description: Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+# Code:
