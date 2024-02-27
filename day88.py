@@ -20,3 +20,7 @@
 #         current = current.next
 #     current.next = l1 if l1 else l2
 #     return dummy.next
+
+# Problem: Two Sum
+# Description: Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+# Code:
