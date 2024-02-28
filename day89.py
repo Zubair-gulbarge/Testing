@@ -13,3 +13,7 @@
 # Description: Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
 # Code:
 
+def is_palindrome(x):
+    if x < 0:
+        return False
+    return str(x) == str(x)[::-1]
