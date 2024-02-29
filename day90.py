@@ -10,3 +10,7 @@
 #             return [num_map[complement], i]
 #         num_map[num] = i
 #     return []
+
+# Problem: Roman to Integer
+# Description: Given a roman numeral, convert it to an integer.
+# Code:
