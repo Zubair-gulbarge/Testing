@@ -23,3 +23,7 @@
 #     x = abs(x)
 #     reversed_x = int(str(x)[::-1]) * sign
 #     return reversed_x if -(2**31)-1 < reversed_x < 2**31 else 0
+
+# Problem: Implement strStr()
+# Description: Return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+# Code:
