@@ -18,8 +18,8 @@
 # Description: Given a signed 32-bit integer x, return x with its digits reversed.
 # Code:
 
-def reverse(x):
-    sign = [1, -1][x < 0]
-    x = abs(x)
-    reversed_x = int(str(x)[::-1]) * sign
-    return reversed_x if -(2**31)-1 < reversed_x < 2**31 else 0
+# def reverse(x):
+#     sign = [1, -1][x < 0]
+#     x = abs(x)
+#     reversed_x = int(str(x)[::-1]) * sign
+#     return reversed_x if -(2**31)-1 < reversed_x < 2**31 else 0
