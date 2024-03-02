@@ -13,3 +13,7 @@
 #         else:
 #             stack.append(char)
 #     return not stack
+
+# Problem: Reverse Integer
+# Description: Given a signed 32-bit integer x, return x with its digits reversed.
+# Code:
