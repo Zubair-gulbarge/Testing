@@ -37,12 +37,12 @@
 # Description: Given a sorted array nums, remove the duplicates in-place such that each element appears only once and returns the new length.
 # Code:
 
-def remove_duplicates(nums):
-    if not nums:
-        return 0
-    unique_index = 0
-    for i in range(1, len(nums)):
-        if nums[i] != nums[unique_index]:
-            unique_index += 1
-            nums[unique_index] = nums[i]
-    return unique_index + 1
+# def remove_duplicates(nums):
+#     if not nums:
+#         return 0
+#     unique_index = 0
+#     for i in range(1, len(nums)):
+#         if nums[i] != nums[unique_index]:
+#             unique_index += 1
+#             nums[unique_index] = nums[i]
+#     return unique_index + 1
