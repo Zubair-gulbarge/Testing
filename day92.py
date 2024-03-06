@@ -32,3 +32,7 @@
 #     else:
 #         l2.next = merge_two_lists(l1, l2.next)
 #         return l2
+
+# Problem: Remove Duplicates from Sorted Array
+# Description: Given a sorted array nums, remove the duplicates in-place such that each element appears only once and returns the new length.
+# Code:
