@@ -14,3 +14,7 @@
 #     if rev < -2**31 or rev > 2**31 - 1:
 #         return 0
 #     return rev
+
+# Problem: Palindrome Number
+# Description: Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
+# Code:
