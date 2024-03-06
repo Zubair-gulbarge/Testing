@@ -24,3 +24,7 @@
 #         return False
 #     reversed_x = int(str(x)[::-1])
 #     return x == reversed_x
+
+# Problem: Two Sum
+# Description: Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+# Code:
