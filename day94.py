@@ -11,3 +11,7 @@
 #             if other[i] != char:
 #                 return min_str[:i]
 #     return min_str
+
+# Problem: Valid Parentheses
+# Description: Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+# Code:
